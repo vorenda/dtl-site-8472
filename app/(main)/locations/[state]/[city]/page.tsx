@@ -96,8 +96,9 @@ export function generateStaticParams() {
   ];
 }
 
-export function generateMetadata({ params }: { params: { state: string; city: string } }): Metadata {
-  const key = `${params.state}-${params.city}`;
+export async function generateMetadata({ params }: { params: Promise<{ state: string; city: string }> }): Promise<Metadata> {
+  const { state, city } = await params;
+  const key = `${state}-${city}`;
   const data = cityData[key];
   if (!data) return { title: 'City Not Found' };
 
@@ -107,8 +108,9 @@ export function generateMetadata({ params }: { params: { state: string; city: st
   };
 }
 
-export default function CityPage({ params }: { params: { state: string; city: string } }) {
-  const key = `${params.state}-${params.city}`;
+export default async function CityPage({ params }: { params: Promise<{ state: string; city: string }> }) {
+  const { state, city } = await params;
+  const key = `${state}-${city}`;
   const data = cityData[key];
   if (!data) notFound();
 
@@ -122,7 +124,7 @@ export default function CityPage({ params }: { params: { state: string; city: st
             <span className="text-gray-500">→</span>
             <Link href="/locations" className="text-[#1e3a8a] hover:underline">Locations</Link>
             <span className="text-gray-500">→</span>
-            <Link href={`/locations/${params.state}`} className="text-[#1e3a8a] hover:underline">{data.state}</Link>
+            <Link href={`/locations/${state}`} className="text-[#1e3a8a] hover:underline">{data.state}</Link>
             <span className="text-gray-500">→</span>
             <strong>{data.city}</strong>
           </div>

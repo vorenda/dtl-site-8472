@@ -25,8 +25,9 @@ export function generateStaticParams() {
   return Object.keys(states).map(slug => ({ state: slug }));
 }
 
-export function generateMetadata({ params }: { params: { state: string } }): Metadata {
-  const stateData = states[params.state as keyof typeof states];
+export async function generateMetadata({ params }: { params: Promise<{ state: string }> }): Promise<Metadata> {
+  const { state } = await params;
+  const stateData = states[state as keyof typeof states];
   if (!stateData) return { title: 'State Not Found' };
 
   return {
@@ -35,8 +36,9 @@ export function generateMetadata({ params }: { params: { state: string } }): Met
   };
 }
 
-export default function StatePage({ params }: { params: { state: string } }) {
-  const stateData = states[params.state as keyof typeof states];
+export default async function StatePage({ params }: { params: Promise<{ state: string }> }) {
+  const { state } = await params;
+  const stateData = states[state as keyof typeof states];
   if (!stateData) notFound();
 
   return (
@@ -51,7 +53,7 @@ export default function StatePage({ params }: { params: { state: string } }) {
           {stateData.cities.map(city => (
             <Link
               key={city.slug}
-              href={`/locations/${params.state}/${city.slug}`}
+              href={`/locations/${state}/${city.slug}`}
               className="p-6 bg-gray-50 rounded-lg hover:shadow-lg transition"
             >
               <h2 className="text-xl font-semibold text-[#1e3a8a]">{city.name}, {stateData.code}</h2>
