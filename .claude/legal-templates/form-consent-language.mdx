@@ -1,0 +1,159 @@
+---
+title: "Form Consent Language"
+description: "Consent language for loan request forms on {props.config.domain}"
+---
+
+# Loan Request Form Consent Language
+
+Use the appropriate consent block(s) on your loan request form. Users must affirmatively consent (checkbox or button click) before submission.
+
+---
+
+## Primary Consent Block (Required)
+
+This is the main consent language that must appear on every loan request form:
+
+```
+By clicking "{props.submitButtonText || 'Submit'}" below, I agree to the {props.config.domain} Terms and Conditions and Privacy Policy. I authorize {props.config.companyName} to share all information I provide, including my Social Security Number and financial information, with its network of lenders and marketing partners.
+
+I understand that {props.config.companyName} is not a lender and does not make credit decisions. I am requesting to be connected with third-party lenders who may offer me loan products.
+
+I authorize lenders to obtain my credit report from TransUnion, Experian, Equifax, or other consumer reporting agencies to evaluate my request. I understand credit inquiries may affect my credit score.
+```
+
+---
+
+## TCPA Consent Block (Required if collecting phone numbers)
+
+```
+By providing my telephone number, I consent to receive calls and text messages (including auto-dialed and pre-recorded messages) from {props.config.companyName}, its marketing partners, and lenders in its network at the number provided. I understand consent is not required to obtain a loan. Message and data rates may apply. I may opt out at any time by replying STOP or calling the number that contacted me.
+
+I agree that my consent applies even if my number is on a Do-Not-Call registry.
+```
+
+---
+
+## FCRA Consent Block (Required)
+
+```
+By submitting this form, I provide written instructions under the Fair Credit Reporting Act (FCRA) authorizing {props.config.companyName} and its lending partners to obtain my consumer credit report and related information from one or more consumer reporting agencies.
+```
+
+---
+
+## E-Sign Consent Block (Required)
+
+```
+By clicking "{props.submitButtonText || 'Submit'}," I consent to receive all communications, disclosures, and documents electronically. I confirm I have access to the required hardware and software to receive electronic communications as described in the E-Consent.
+```
+
+---
+
+## Combined Short-Form Consent (Alternative)
+
+If space is limited, use this combined version that covers all required elements:
+
+```
+By clicking "{props.submitButtonText || 'Submit'}," I agree to the Terms and Conditions, Privacy Policy, and E-Consent. I authorize {props.config.companyName} to share my information, including SSN and financial data, with lenders and marketing partners. I provide written consent under the FCRA for lenders to obtain my credit report.
+
+I consent to receive calls, texts (including auto-dialed/pre-recorded), and emails from {props.config.companyName}, lenders, and marketing partners at the contact information provided, even if on a Do-Not-Call list. Message/data rates may apply. Consent not required for purchase. Reply STOP to opt out of texts.
+```
+
+---
+
+## California-Specific Addition (For CA users)
+
+Add this if detecting a California user or on California-focused pages:
+
+```
+California Residents: We may "sell" or "share" your personal information as described in our Privacy Policy. You may opt out at any time. See our Privacy Rights page for details.
+```
+
+---
+
+## Checkbox Implementation Notes
+
+**Option A: Single Checkbox**
+- Use the Combined Short-Form Consent
+- Checkbox must be unchecked by default
+- Form cannot submit unless checkbox is checked
+
+**Option B: Multiple Checkboxes (Recommended for clarity)**
+1. Terms/Privacy Policy consent (required)
+2. TCPA/Communication consent (required if collecting phone)
+3. FCRA/Credit check consent (required)
+4. Marketing consent (can be optional)
+
+---
+
+## Legal Hyperlinks Required
+
+The consent language must include working hyperlinks to:
+- [Terms and Conditions](/terms-and-conditions)
+- [Privacy Policy](/privacy-policy)
+- [E-Consent](/e-consent)
+- [Privacy Rights](/ccpa) (for California users)
+
+---
+
+## Implementation Example (React/JSX)
+
+```jsx
+const FormConsent = ({ config }) => (
+  <div className="form-consent">
+    <label className="consent-checkbox">
+      <input type="checkbox" required name="consent" />
+      <span>
+        By checking this box, I agree to the{' '}
+        <a href="/terms-and-conditions" target="_blank">Terms and Conditions</a>,{' '}
+        <a href="/privacy-policy" target="_blank">Privacy Policy</a>, and{' '}
+        <a href="/e-consent" target="_blank">E-Consent</a>.
+        I authorize {config.companyName} to share my information with lenders 
+        and marketing partners, and I provide written consent under the FCRA 
+        for lenders to obtain my credit report.
+      </span>
+    </label>
+    
+    <label className="consent-checkbox">
+      <input type="checkbox" required name="tcpaConsent" />
+      <span>
+        I consent to receive calls and texts (including auto-dialed and 
+        pre-recorded) from {config.companyName}, lenders, and marketing partners 
+        at the number provided, even if on a Do-Not-Call list. Message and data 
+        rates may apply. Reply STOP to opt out.
+      </span>
+    </label>
+    
+    {config.hasCaliforniaUsers && (
+      <p className="ca-notice">
+        <strong>California Residents:</strong> We may sell or share your 
+        personal information. <a href="/ccpa">Learn about your rights</a>.
+      </p>
+    )}
+  </div>
+);
+```
+
+---
+
+## SMS-Specific Disclosure (If collecting for SMS)
+
+If lenders will send SMS after lead handoff, include:
+
+```
+Lenders in our network may contact you via SMS/text message regarding your loan request and related offers. Message frequency varies. Message and data rates may apply. Text STOP to any message to opt out. Text HELP for help. Carriers are not liable for delayed or undelivered messages.
+```
+
+---
+
+## Disclaimer Footer (For form pages)
+
+Add this disclaimer at the bottom of loan request pages:
+
+```
+{props.config.domain} is not a lender. We are a lead generator that connects consumers with third-party lenders. We do not make loan or credit decisions. Loan approval, terms, and rates are determined solely by lenders. Not all applicants will qualify. Loan amounts, terms, and APR vary by lender and applicant qualifications. Representative APR ranges from 5.99% to 35.99%. Loan proceeds are intended primarily for personal, family, and household purposes.
+```
+
+---
+
+*Last updated: {props.config.lastUpdated}*

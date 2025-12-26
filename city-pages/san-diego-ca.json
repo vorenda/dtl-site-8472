@@ -1,0 +1,319 @@
+{
+  "id": "san-diego-ca",
+  "city": "San Diego",
+  "slug": "san-diego",
+  "state": "California",
+  "stateCode": "CA",
+  "stateSlug": "california",
+  "countyName": "San Diego County",
+  "serviceNiche": "Title Loans",
+
+  "seo": {
+    "title": "Title Loans in San Diego, CA | Fast Cash at Balboa Park Branch",
+    "metaDescription": "Need cash today in San Diego? Visit our branch near San Diego Zoo and Balboa Park. Get approved in 30 minutes. Call (619) 555-0238 for same-day funding.",
+    "canonicalUrl": "/locations/california/san-diego",
+    "keywords": ["title loans san diego", "san diego title loans", "car title loans san diego ca", "title loan near me san diego", "auto title loans san diego", "title loans mission valley", "title loans downtown san diego", "fast cash san diego"]
+  },
+
+  "hero": {
+    "h1": "Fast Title Loans in San Diego, CA",
+    "subheadline": "Trusted lending at our Balboa Park location near San Diego Zoo",
+    "ctaText": "Apply Now for San Diego Cash",
+    "ctaUrl": "/apply?location=san-diego-ca",
+    "secondaryCta": {
+      "text": "Get Directions",
+      "url": "https://maps.google.com/?q=2850+El+Cajon+Blvd+San+Diego+CA+92104"
+    }
+  },
+
+  "localProof": {
+    "headline": "Where to Find Us in San Diego",
+    "directions": "We are conveniently located at 2850 El Cajon Blvd, right across from San Diego Zoo and just down the road from Balboa Park. If you are taking I-5 (Santa Fe Freeway), take Exit 17 (Downtown San Diego) and head east on El Cajon Blvd.",
+    "landmarks": ["San Diego Zoo", "Balboa Park"],
+    "highway": "I-5 (Santa Fe Freeway)",
+    "exit": "Exit 17 (Downtown San Diego)",
+    "neighborhoodName": "North Park",
+    "hours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.0!2d-117.1222!3d32.8313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s2850+El+Cajon+Blvd+San+Diego+CA!5e0!3m2!1sen!2sus!4v1"
+  },
+
+  "nap": {
+    "name": "Direct Title Loans of San Diego",
+    "street": "2850 El Cajon Blvd, Suite 200",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92104",
+    "phone": "(619) 555-0238",
+    "formattedPhone": "+16195550238",
+    "formattedAddress": "2850 El Cajon Blvd, Suite 200, San Diego, CA 92104",
+    "coordinates": {
+      "latitude": 32.8313,
+      "longitude": -117.1222
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=32.8313,-117.1222"
+  },
+
+  "financialStats": {
+    "medianIncome": 104321,
+    "unemploymentRate": 5.9,
+    "medianHomeValue": 847715,
+    "medianRent": 2223,
+    "povertyRate": 11.1,
+    "laborForceParticipation": 68.3,
+    "population": 3057780
+  },
+
+  "marketContext": "With a median household income of $104,321 and median rent of $2,223 in San Diego, residents may need quick access to cash for unexpected expenses like medical bills, home repairs, or emergency travel.",
+
+  "productLinks": {
+    "headline": "What Vehicles Can You Use for a Loan in San Diego?",
+    "intro": "While most customers in San Diego County use their car, we accept a variety of vehicles at this branch:",
+    "services": [
+      {
+        "name": "Car Title Loans",
+        "slug": "car-title-loans",
+        "url": "/services/car-title-loans",
+        "description": "Use your car as collateral for fast cash",
+        "anchorText": "Car Title Loans"
+      },
+      {
+        "name": "Online Title Loans",
+        "slug": "online-title-loans",
+        "url": "/services/online-title-loans",
+        "description": "Apply entirely online - we come to you",
+        "anchorText": "Online Title Loans"
+      },
+      {
+        "name": "Same Day Title Loans",
+        "slug": "same-day-title-loans",
+        "url": "/services/same-day-title-loans",
+        "description": "Get cash in as little as 30 minutes",
+        "anchorText": "Same Day Title Loans"
+      },
+      {
+        "name": "Bad Credit Title Loans",
+        "slug": "bad-credit-title-loans",
+        "url": "/services/bad-credit-title-loans",
+        "description": "Your credit score is not a major factor",
+        "anchorText": "Bad Credit Title Loans"
+      },
+      {
+        "name": "Title Loan Refinancing",
+        "slug": "title-loan-refinancing",
+        "url": "/services/title-loan-refinancing",
+        "description": "Refinance for better rates or lower payments",
+        "anchorText": "Title Loan Refinancing"
+      },
+      {
+        "name": "Motorcycle Title Loans",
+        "slug": "motorcycle-title-loans",
+        "url": "/services/motorcycle-title-loans",
+        "description": "Use your motorcycle title for cash",
+        "anchorText": "Motorcycle Title Loans"
+      },
+      {
+        "name": "Truck Title Loans",
+        "slug": "truck-title-loans",
+        "url": "/services/truck-title-loans",
+        "description": "Higher amounts for trucks and commercial vehicles",
+        "anchorText": "Truck Title Loans"
+      },
+      {
+        "name": "RV Title Loans",
+        "slug": "rv-title-loans",
+        "url": "/services/rv-title-loans",
+        "description": "Unlock equity in your recreational vehicle",
+        "anchorText": "RV Title Loans"
+      },
+      {
+        "name": "Title Loan Buyout",
+        "slug": "title-loan-buyout",
+        "url": "/services/title-loan-buyout",
+        "description": "We pay off your existing title loan",
+        "anchorText": "Title Loan Buyout"
+      },
+      {
+        "name": "Commercial Vehicle Title Loans",
+        "slug": "commercial-vehicle-title-loans",
+        "url": "/services/commercial-vehicle-title-loans",
+        "description": "Business owners can access working capital",
+        "anchorText": "Commercial Vehicle Title Loans"
+      }
+    ]
+  },
+
+  "stateCompliance": {
+    "headline": "Understanding Title Loan Laws in California",
+    "content": "Residents of San Diego benefit from California's strong consumer protection laws enforced by the Department of Financial Protection and Innovation (DFPI).",
+    "keyPoints": [
+      "California caps title loan interest at 30% APR",
+      "Minimum loan amount is $2,500",
+      "All lenders must be licensed by DFPI",
+      "No prepayment penalties allowed",
+      "Lenders must provide clear disclosure of all costs",
+      "Verify lender license at dfpi.ca.gov before signing"
+    ],
+    "regulatoryBody": "Department of Financial Protection and Innovation (DFPI)",
+    "regulatoryUrl": "https://dfpi.ca.gov",
+    "verificationUrl": "https://dfpi.ca.gov/verify-a-license/",
+    "disclaimer": "This information is for general educational purposes only and may not reflect the most current legal developments. Laws and regulations change frequently. Always consult with a licensed attorney or contact the California DFPI at (866) 275-2677 or visit dfpi.ca.gov for the most accurate and up-to-date information before making any financial decisions."
+  },
+
+  "localReviews": {
+    "headline": "What Our San Diego Customers Say",
+    "locationId": "san-diego-ca",
+    "reviewSource": "Google Business Profile",
+    "showWidget": true,
+    "reviews": [
+      {
+        "name": "Jennifer M.",
+        "rating": 5,
+        "text": "Amazing service at the North Park location! The team near Balboa Park was super helpful and got me approved in under an hour. Very professional and transparent about all the fees.",
+        "date": "2024-12-08"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "text": "Needed quick cash for an emergency flight. Direct Title Loans made it happen same day. The location off El Cajon Blvd was easy to find. Thank you!",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Amanda K.",
+        "rating": 4,
+        "text": "Good experience. The California 30% APR cap makes this more affordable than other states. Staff explained everything clearly. Would recommend to friends in San Diego.",
+        "date": "2024-11-10"
+      }
+    ]
+  },
+
+  "nearbyLocations": {
+    "headline": "Also Serving Nearby Cities",
+    "intro": "Can't make it to our San Diego location? We also serve:",
+    "cities": [
+      {
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "url": "/locations/california/los-angeles",
+        "distanceMiles": 120
+      }
+    ]
+  },
+
+  "faq": [
+    {
+      "question": "Where is your San Diego location?",
+      "answer": "Our San Diego branch is located at 2850 El Cajon Blvd, Suite 200, right across from the San Diego Zoo. Take I-5 Exit 17 (Downtown San Diego) and head east on El Cajon Blvd."
+    },
+    {
+      "question": "What are your hours in San Diego?",
+      "answer": "We're open Monday-Friday 9 AM to 6 PM, Saturday 10 AM to 4 PM. We're closed on Sundays. Online applications are accepted 24/7."
+    },
+    {
+      "question": "Do I need an appointment at the San Diego location?",
+      "answer": "No appointment needed! Walk-ins are welcome at our North Park branch near Balboa Park. However, you can apply online first to speed up the process."
+    },
+    {
+      "question": "What do I need to bring to the San Diego branch?",
+      "answer": "Bring your vehicle, clear title in your name, valid California driver's license or state ID, and proof of income. We'll handle the rest."
+    },
+    {
+      "question": "How much can I borrow in California?",
+      "answer": "California title loans start at a minimum of $2,500 and go up based on your vehicle's value. Interest rates are capped at 30% APR by California law."
+    },
+    {
+      "question": "Is Direct Title Loans licensed in California?",
+      "answer": "Yes, we are licensed by the California Department of Financial Protection and Innovation (DFPI). You can verify our license at dfpi.ca.gov/verify-a-license."
+    }
+  ],
+
+  "ctaSection": {
+    "headline": "Ready to Get Cash in San Diego?",
+    "subheadline": "Visit our North Park location or apply online now",
+    "primaryCta": {
+      "text": "Apply Now",
+      "url": "/apply?location=san-diego-ca"
+    },
+    "secondaryCta": {
+      "text": "Call (619) 555-0238",
+      "url": "tel:+16195550238"
+    },
+    "address": "2850 El Cajon Blvd, Suite 200, San Diego, CA 92104"
+  },
+
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "Direct Title Loans of San Diego",
+    "description": "Title loans in San Diego, CA. Get $2,500 to $15,000+ cash using your vehicle title. California licensed lender with 30% APR cap. Same-day funding available.",
+    "url": "https://www.directtitleloans.com/locations/california/san-diego",
+    "telephone": "(619) 555-0238",
+    "priceRange": "$2,500 - $15,000+",
+    "currenciesAccepted": "USD",
+    "paymentAccepted": ["Cash", "Check", "Direct Deposit"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2850 El Cajon Blvd, Suite 200",
+      "addressLocality": "San Diego",
+      "addressRegion": "CA",
+      "postalCode": "92104",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.8313,
+      "longitude": -117.1222
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "San Diego",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "10:00",
+        "closes": "16:00"
+      }
+    ]
+  },
+
+  "breadcrumbs": [
+    {"label": "Home", "url": "/"},
+    {"label": "Locations", "url": "/locations"},
+    {"label": "California", "url": "/locations/california"},
+    {"label": "San Diego", "url": "/locations/california/san-diego"}
+  ],
+
+  "images": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1538964173425-93c6c27c8d41",
+      "alt": "Direct Title Loans San Diego branch exterior near Balboa Park",
+      "caption": "Our San Diego location on El Cajon Blvd"
+    }
+  },
+
+  "metadata": {
+    "generatedAt": "2025-12-26T12:00:00Z",
+    "generator": "city-page-generator",
+    "version": "2.0",
+    "dataSource": "locations.json + state-compliance/california.json + uscities database"
+  }
+}

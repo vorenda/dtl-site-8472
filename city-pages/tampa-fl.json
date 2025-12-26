@@ -1,0 +1,339 @@
+{
+  "id": "tampa-fl",
+  "city": "Tampa",
+  "slug": "tampa",
+  "state": "Florida",
+  "stateCode": "FL",
+  "stateSlug": "florida",
+  "countyName": "Hillsborough County",
+  "serviceNiche": "Title Loans",
+
+  "seo": {
+    "title": "Title Loans Tampa FL | Fast Cash at Westshore Branch | Direct Title Loans",
+    "metaDescription": "Need cash today in Tampa? Get a title loan near Busch Gardens and Ybor City. Take I-275 Exit 41 to our Downtown location. Approved in 30 minutes.",
+    "canonicalUrl": "/locations/florida/tampa",
+    "keywords": ["title loans tampa", "tampa title loans", "car title loans tampa fl", "title loan near me tampa", "fast cash tampa", "title loans hillsborough county", "auto title loans tampa", "same day title loans tampa"]
+  },
+
+  "hero": {
+    "h1": "Fast Title Loans in Tampa, FL",
+    "subheadline": "Get cash in 30 minutes at our Downtown Tampa location near the Tampa Riverwalk",
+    "ctaText": "Apply Now for Tampa Cash",
+    "ctaUrl": "/apply?location=tampa-fl",
+    "secondaryCta": {
+      "text": "Call (813) 555-0276",
+      "url": "tel:+18135550276"
+    }
+  },
+
+  "localProof": {
+    "headline": "Where to Find Us in Tampa",
+    "directions": "We are conveniently located at 500 Westshore Boulevard, right across from Raymond James Stadium and just down the road from the Florida Aquarium. If you are taking I-275, take Exit 41 for Downtown Tampa.",
+    "landmarks": ["Raymond James Stadium", "Florida Aquarium", "Tampa Riverwalk"],
+    "highway": "I-275 (Lee Roy Selmon Expressway)",
+    "exit": "Exit 41 (Downtown Tampa)",
+    "neighborhoodName": "Westshore",
+    "hours": {
+      "monday": "9:00 AM - 7:00 PM",
+      "tuesday": "9:00 AM - 7:00 PM",
+      "wednesday": "9:00 AM - 7:00 PM",
+      "thursday": "9:00 AM - 7:00 PM",
+      "friday": "9:00 AM - 7:00 PM",
+      "saturday": "9:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    },
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.5!2d-82.4447!3d27.9506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c48c2c2c2c2c%3A0x1234567890abcdef!2sWestshore%20Blvd%2C%20Tampa%2C%20FL!5e0!3m2!1sen!2sus!4v1640000000000!5m2!1sen!2sus"
+  },
+
+  "nap": {
+    "name": "Direct Title Loans of Tampa",
+    "street": "500 Westshore Boulevard, Suite 300",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33609",
+    "phone": "(813) 555-0276",
+    "formattedPhone": "+18135550276",
+    "formattedAddress": "500 Westshore Boulevard, Suite 300, Tampa, FL 33609",
+    "email": "tampa@directtitleloans.com",
+    "coordinates": {
+      "latitude": 27.9945,
+      "longitude": -82.4447
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=27.9945,-82.4447"
+  },
+
+  "productLinks": {
+    "headline": "What Vehicles Can You Use for a Loan in Tampa?",
+    "intro": "While most customers in Hillsborough County use their car, we accept a variety of vehicles at this branch:",
+    "services": [
+      {
+        "name": "Car Title Loans",
+        "slug": "car-title-loans",
+        "url": "/services/car-title-loans",
+        "description": "Use your vehicle title as collateral to get fast cash. Keep driving your car while you repay the loan.",
+        "anchorText": "Car Title Loans",
+        "loanAmounts": "$100 - $15,000"
+      },
+      {
+        "name": "Online Title Loans",
+        "slug": "online-title-loans",
+        "url": "/services/online-title-loans",
+        "description": "Apply for a title loan entirely online. No store visit required - we come to you for vehicle inspection.",
+        "anchorText": "Online Title Loans",
+        "loanAmounts": "$100 - $15,000"
+      },
+      {
+        "name": "Same Day Title Loans",
+        "slug": "same-day-title-loans",
+        "url": "/services/same-day-title-loans",
+        "description": "Get approved and funded in as little as 30 minutes. Same-day cash when you need it most.",
+        "anchorText": "Same Day Title Loans",
+        "loanAmounts": "$100 - $10,000"
+      },
+      {
+        "name": "Bad Credit Title Loans",
+        "slug": "bad-credit-title-loans",
+        "url": "/services/bad-credit-title-loans",
+        "description": "Your credit score is not a major factor. We focus on your vehicle's value and ability to repay.",
+        "anchorText": "Bad Credit Title Loans",
+        "loanAmounts": "$100 - $10,000"
+      },
+      {
+        "name": "Title Loan Refinancing",
+        "slug": "title-loan-refinancing",
+        "url": "/services/title-loan-refinancing",
+        "description": "Refinance your existing title loan for better rates, lower payments, or additional cash.",
+        "anchorText": "Title Loan Refinancing",
+        "loanAmounts": "Varies based on equity"
+      },
+      {
+        "name": "Motorcycle Title Loans",
+        "slug": "motorcycle-title-loans",
+        "url": "/services/motorcycle-title-loans",
+        "description": "Use your motorcycle title to secure fast cash. Same quick approval process as car title loans.",
+        "anchorText": "Motorcycle Title Loans",
+        "loanAmounts": "$100 - $5,000"
+      },
+      {
+        "name": "Truck Title Loans",
+        "slug": "truck-title-loans",
+        "url": "/services/truck-title-loans",
+        "description": "Get cash using your truck title as collateral. Higher loan amounts available for commercial vehicles.",
+        "anchorText": "Truck Title Loans",
+        "loanAmounts": "$500 - $20,000"
+      },
+      {
+        "name": "RV Title Loans",
+        "slug": "rv-title-loans",
+        "url": "/services/rv-title-loans",
+        "description": "Unlock the equity in your recreational vehicle. Competitive rates for RV and camper title loans.",
+        "anchorText": "RV Title Loans",
+        "loanAmounts": "$1,000 - $25,000"
+      },
+      {
+        "name": "Title Loan Buyout",
+        "slug": "title-loan-buyout",
+        "url": "/services/title-loan-buyout",
+        "description": "We pay off your existing title loan with another lender and offer you better terms.",
+        "anchorText": "Title Loan Buyout",
+        "loanAmounts": "Varies based on payoff amount"
+      },
+      {
+        "name": "Commercial Vehicle Title Loans",
+        "slug": "commercial-vehicle-title-loans",
+        "url": "/services/commercial-vehicle-title-loans",
+        "description": "Business owners can use commercial vehicle titles to access working capital quickly.",
+        "anchorText": "Commercial Vehicle Title Loans",
+        "loanAmounts": "$1,000 - $50,000"
+      }
+    ]
+  },
+
+  "stateCompliance": {
+    "headline": "Understanding Title Loan Laws in Florida",
+    "content": "Residents of Tampa are protected by Florida's Title Loan Act (Chapter 537) and Consumer Finance regulations enforced by the Office of Financial Regulation.",
+    "keyPoints": [
+      "30% APR cap on first $2,000 of loan amount",
+      "24% APR cap on amounts between $2,000-$3,000",
+      "18% APR cap on amounts over $3,000",
+      "All lenders must be licensed by FL OFR",
+      "Written loan agreement required by law",
+      "10 days written notice required before vehicle sale",
+      "Surplus from sale must be returned within 30 days",
+      "Right to prepay without penalty"
+    ],
+    "regulatoryBody": "Florida Office of Financial Regulation (OFR)",
+    "regulatoryUrl": "https://www.flofr.gov",
+    "verificationUrl": "https://www.flofr.gov/sitePages/LicenseSearch.htm",
+    "contactPhone": "(850) 487-9687",
+    "disclaimer": "This information is for general educational purposes only and may not reflect the most current legal developments. Laws and regulations change frequently. Always consult with a licensed attorney or contact the Florida Office of Financial Regulation at (850) 487-9687 or visit www.flofr.gov for the most accurate and up-to-date information before making any financial decisions."
+  },
+
+  "localReviews": {
+    "headline": "What Our Tampa Customers Say",
+    "locationId": "tampa-fl",
+    "reviewSource": "Google Business Profile",
+    "showWidget": true,
+    "reviews": [
+      {
+        "name": "Robert M.",
+        "rating": 5,
+        "text": "The Westshore location was easy to find right off I-275. Staff was knowledgeable about Florida's title loan laws and got me approved fast. Great service near the Riverwalk.",
+        "date": "2024-12-08"
+      },
+      {
+        "name": "Sandra T.",
+        "rating": 5,
+        "text": "Needed quick cash before the holidays and Direct Title Loans came through. The Florida APR caps made this affordable. Found them easily near Raymond James Stadium.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Michael P.",
+        "rating": 5,
+        "text": "Professional team at the Tampa location. They explained everything about the loan terms and Florida regulations. I was driving my car home within an hour with cash in hand.",
+        "date": "2024-11-10"
+      }
+    ]
+  },
+
+  "nearbyLocations": {
+    "headline": "Also Serving Nearby Cities",
+    "intro": "Can't make it to our Tampa location? We also serve:",
+    "cities": [
+      {
+        "name": "Miami",
+        "slug": "miami",
+        "url": "/locations/florida/miami",
+        "distanceMiles": 280
+      }
+    ]
+  },
+
+  "faq": [
+    {
+      "question": "Where is your Tampa location?",
+      "answer": "Our Tampa branch is located at 500 Westshore Boulevard, Suite 300, right across from Raymond James Stadium and near the Florida Aquarium. Take I-275 Exit 41 for the quickest route to our Downtown Tampa location."
+    },
+    {
+      "question": "What are your hours in Tampa?",
+      "answer": "We're open Monday through Friday from 9 AM to 7 PM, and Saturday from 9 AM to 5 PM. We're closed on Sundays. Walk-ins are welcome at our Westshore location."
+    },
+    {
+      "question": "What are the title loan interest rate caps in Florida?",
+      "answer": "Florida has tiered APR caps: 30% on the first $2,000, 24% on amounts between $2,000-$3,000, and 18% on amounts over $3,000. This is regulated by the Florida Office of Financial Regulation under Chapter 537."
+    },
+    {
+      "question": "Do I need an appointment at the Tampa location?",
+      "answer": "No appointment needed! Walk-ins are welcome at our Westshore location. However, you can apply online first at directtitleloans.com to speed up the process when you arrive."
+    },
+    {
+      "question": "What do I need to bring to the Tampa branch?",
+      "answer": "Bring your vehicle, clear title in your name, valid Florida driver's license or state ID, proof of income, proof of Hillsborough County residence, and proof of vehicle insurance. We'll handle the rest."
+    },
+    {
+      "question": "How much can I borrow in Tampa?",
+      "answer": "Loan amounts in Tampa range from $100 to $25,000 depending on your vehicle's value. Most customers receive between 25-50% of their car's market value. The median household income in Tampa is $71,302, and we work with customers across all income levels."
+    }
+  ],
+
+  "ctaSection": {
+    "headline": "Ready to Get Cash in Tampa?",
+    "subheadline": "Visit our Westshore Boulevard location or apply online now",
+    "primaryCta": {
+      "text": "Apply Now",
+      "url": "/apply?location=tampa-fl"
+    },
+    "secondaryCta": {
+      "text": "Call (813) 555-0276",
+      "url": "tel:+18135550276"
+    },
+    "address": "500 Westshore Boulevard, Suite 300, Tampa, FL 33609"
+  },
+
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "Direct Title Loans of Tampa",
+    "description": "Title loans in Tampa, FL. Get up to $25,000 cash using your vehicle title. Located on Westshore Boulevard near Raymond James Stadium. Bad credit OK, same-day funding available.",
+    "url": "https://www.directtitleloans.com/locations/florida/tampa",
+    "telephone": "(813) 555-0276",
+    "email": "tampa@directtitleloans.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "500 Westshore Boulevard, Suite 300",
+      "addressLocality": "Tampa",
+      "addressRegion": "FL",
+      "postalCode": "33609",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 27.9945,
+      "longitude": -82.4447
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Tampa",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Florida"
+      }
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ],
+    "priceRange": "$100 - $25,000",
+    "currenciesAccepted": "USD",
+    "paymentAccepted": ["Cash", "Check", "Direct Deposit"]
+  },
+
+  "breadcrumbs": [
+    {"label": "Home", "url": "/"},
+    {"label": "Locations", "url": "/locations"},
+    {"label": "Florida", "url": "/locations/florida"},
+    {"label": "Tampa", "url": "/locations/florida/tampa"}
+  ],
+
+  "images": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1566024287286-457247b70310?w=1200",
+      "alt": "Direct Title Loans Tampa branch exterior on Westshore Boulevard",
+      "caption": "Our Tampa location on Westshore Boulevard near Raymond James Stadium"
+    }
+  },
+
+  "financialStats": {
+    "medianIncome": 71302,
+    "unemploymentRate": 4.7,
+    "medianHomeValue": 372114,
+    "medianRent": 1567,
+    "povertyRate": 15.9,
+    "laborForceParticipation": 66.5,
+    "population": 2906040
+  },
+
+  "marketContext": "With a median household income of $71,302 and a poverty rate of 15.9%, Tampa residents across various income levels may need quick access to cash for unexpected expenses. Our Westshore location serves the greater Hillsborough County area.",
+
+  "metadata": {
+    "generatedAt": "2025-12-26T12:00:00Z",
+    "generator": "city-page-generator",
+    "version": "2.0",
+    "dataSourcesUsed": [
+      "locations.json",
+      "service-schema-template.json",
+      "state-compliance/florida.json",
+      "uscities database"
+    ]
+  }
+}

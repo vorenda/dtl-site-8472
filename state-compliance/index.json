@@ -1,0 +1,51 @@
+{
+  "serviceNiche": "Title Loans",
+  "totalStates": 50,
+  "statesResearched": 2,
+  "generatedAt": "2025-12-26T00:00:00Z",
+  "dataSource": "PostgreSQL Cache (localhost:13247)",
+  "states": {
+    "CA": {
+      "name": "California",
+      "isLegal": true,
+      "maxAPR": "30%",
+      "strictnessLevel": "strict",
+      "regulatoryBody": "Department of Financial Protection and Innovation (DFPI)",
+      "regulatoryUrl": "https://dfpi.ca.gov",
+      "file": "california.json"
+    },
+    "FL": {
+      "name": "Florida",
+      "isLegal": true,
+      "maxAPR": "30%/24%/18% (tiered)",
+      "strictnessLevel": "moderate",
+      "regulatoryBody": "Florida Office of Financial Regulation (OFR)",
+      "regulatoryUrl": "https://www.flofr.gov",
+      "file": "florida.json"
+    }
+  },
+  "statesByStrictness": {
+    "permissive": [],
+    "moderate": ["FL"],
+    "strict": ["CA"],
+    "prohibited": []
+  },
+  "keyDifferences": {
+    "aprCaps": {
+      "CA": "30% flat rate",
+      "FL": "Tiered: 30% on first $2k, 24% on $2k-$3k, 18% over $3k"
+    },
+    "minimumLoan": {
+      "CA": "$2,500 minimum",
+      "FL": "No minimum"
+    },
+    "rollovers": {
+      "CA": "Not permitted",
+      "FL": "Permitted with restrictions"
+    },
+    "consumerProtections": {
+      "CA": "Strong - no prepayment penalties, strict disclosure",
+      "FL": "Strong - written notice before repossession/sale, surplus return"
+    }
+  }
+}

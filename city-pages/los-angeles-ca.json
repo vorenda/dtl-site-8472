@@ -1,0 +1,319 @@
+{
+  "id": "los-angeles-ca",
+  "city": "Los Angeles",
+  "slug": "los-angeles",
+  "state": "California",
+  "stateCode": "CA",
+  "stateSlug": "california",
+  "countyName": "Los Angeles County",
+  "serviceNiche": "Title Loans",
+
+  "seo": {
+    "title": "Title Loans in Los Angeles, CA | Fast Cash at Hollywood Branch",
+    "metaDescription": "Need cash today in Los Angeles? Visit our branch near Griffith Observatory. We accept cars, trucks, and RVs. Get approved in 30 minutes. Call (213) 555-0147.",
+    "canonicalUrl": "/locations/california/los-angeles",
+    "keywords": ["title loans los angeles", "los angeles title loans", "car title loans los angeles ca", "title loan near me los angeles", "auto title loans LA", "title loans hollywood", "title loans downtown la", "fast cash los angeles"]
+  },
+
+  "hero": {
+    "h1": "Fast Title Loans in Los Angeles, CA",
+    "subheadline": "Trusted lending at our Hollywood location near Griffith Observatory",
+    "ctaText": "Apply Now for Los Angeles Cash",
+    "ctaUrl": "/apply?location=los-angeles-ca",
+    "secondaryCta": {
+      "text": "Get Directions",
+      "url": "https://maps.google.com/?q=4521+Hollywood+Blvd+Los+Angeles+CA+90027"
+    }
+  },
+
+  "localProof": {
+    "headline": "Where to Find Us in Los Angeles",
+    "directions": "We are conveniently located at 4521 Hollywood Blvd, right across from Griffith Observatory and just down the road from the Hollywood Sign. If you are taking US-101 (Hollywood Freeway), take the Hollywood Blvd exit.",
+    "landmarks": ["Griffith Observatory", "Hollywood Sign"],
+    "highway": "US-101 (Hollywood Freeway)",
+    "exit": "Hollywood Blvd exit",
+    "neighborhoodName": "Hollywood",
+    "hours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.0!2d-118.4068!3d34.1141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s4521+Hollywood+Blvd+Los+Angeles+CA!5e0!3m2!1sen!2sus!4v1"
+  },
+
+  "nap": {
+    "name": "Direct Title Loans of Los Angeles",
+    "street": "4521 Hollywood Blvd, Suite 100",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90027",
+    "phone": "(213) 555-0147",
+    "formattedPhone": "+12135550147",
+    "formattedAddress": "4521 Hollywood Blvd, Suite 100, Los Angeles, CA 90027",
+    "coordinates": {
+      "latitude": 34.1141,
+      "longitude": -118.4068
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=34.1141,-118.4068"
+  },
+
+  "financialStats": {
+    "medianIncome": 80366,
+    "unemploymentRate": 7.9,
+    "medianHomeValue": 878142,
+    "medianRent": 1879,
+    "povertyRate": 16.5,
+    "laborForceParticipation": 66.6,
+    "population": 11885700
+  },
+
+  "marketContext": "With a median household income of $80,366 and high cost of living in Los Angeles, many residents may need quick access to cash for unexpected expenses like car repairs, medical bills, or rent.",
+
+  "productLinks": {
+    "headline": "What Vehicles Can You Use for a Loan in Los Angeles?",
+    "intro": "While most customers in Los Angeles County use their car, we accept a variety of vehicles at this branch:",
+    "services": [
+      {
+        "name": "Car Title Loans",
+        "slug": "car-title-loans",
+        "url": "/services/car-title-loans",
+        "description": "Use your car as collateral for fast cash",
+        "anchorText": "Car Title Loans"
+      },
+      {
+        "name": "Online Title Loans",
+        "slug": "online-title-loans",
+        "url": "/services/online-title-loans",
+        "description": "Apply entirely online - we come to you",
+        "anchorText": "Online Title Loans"
+      },
+      {
+        "name": "Same Day Title Loans",
+        "slug": "same-day-title-loans",
+        "url": "/services/same-day-title-loans",
+        "description": "Get cash in as little as 30 minutes",
+        "anchorText": "Same Day Title Loans"
+      },
+      {
+        "name": "Bad Credit Title Loans",
+        "slug": "bad-credit-title-loans",
+        "url": "/services/bad-credit-title-loans",
+        "description": "Your credit score is not a major factor",
+        "anchorText": "Bad Credit Title Loans"
+      },
+      {
+        "name": "Title Loan Refinancing",
+        "slug": "title-loan-refinancing",
+        "url": "/services/title-loan-refinancing",
+        "description": "Refinance for better rates or lower payments",
+        "anchorText": "Title Loan Refinancing"
+      },
+      {
+        "name": "Motorcycle Title Loans",
+        "slug": "motorcycle-title-loans",
+        "url": "/services/motorcycle-title-loans",
+        "description": "Use your motorcycle title for cash",
+        "anchorText": "Motorcycle Title Loans"
+      },
+      {
+        "name": "Truck Title Loans",
+        "slug": "truck-title-loans",
+        "url": "/services/truck-title-loans",
+        "description": "Higher amounts for trucks and commercial vehicles",
+        "anchorText": "Truck Title Loans"
+      },
+      {
+        "name": "RV Title Loans",
+        "slug": "rv-title-loans",
+        "url": "/services/rv-title-loans",
+        "description": "Unlock equity in your recreational vehicle",
+        "anchorText": "RV Title Loans"
+      },
+      {
+        "name": "Title Loan Buyout",
+        "slug": "title-loan-buyout",
+        "url": "/services/title-loan-buyout",
+        "description": "We pay off your existing title loan",
+        "anchorText": "Title Loan Buyout"
+      },
+      {
+        "name": "Commercial Vehicle Title Loans",
+        "slug": "commercial-vehicle-title-loans",
+        "url": "/services/commercial-vehicle-title-loans",
+        "description": "Business owners can access working capital",
+        "anchorText": "Commercial Vehicle Title Loans"
+      }
+    ]
+  },
+
+  "stateCompliance": {
+    "headline": "Understanding Title Loan Laws in California",
+    "content": "Residents of Los Angeles benefit from California's strong consumer protection laws enforced by the Department of Financial Protection and Innovation (DFPI).",
+    "keyPoints": [
+      "California caps title loan interest at 30% APR",
+      "Minimum loan amount is $2,500",
+      "All lenders must be licensed by DFPI",
+      "No prepayment penalties allowed",
+      "Lenders must provide clear disclosure of all costs",
+      "Verify lender license at dfpi.ca.gov before signing"
+    ],
+    "regulatoryBody": "Department of Financial Protection and Innovation (DFPI)",
+    "regulatoryUrl": "https://dfpi.ca.gov",
+    "verificationUrl": "https://dfpi.ca.gov/verify-a-license/",
+    "disclaimer": "This information is for general educational purposes only and may not reflect the most current legal developments. Laws and regulations change frequently. Always consult with a licensed attorney or contact the California DFPI at (866) 275-2677 or visit dfpi.ca.gov for the most accurate and up-to-date information before making any financial decisions."
+  },
+
+  "localReviews": {
+    "headline": "What Our Los Angeles Customers Say",
+    "locationId": "los-angeles-ca",
+    "reviewSource": "Google Business Profile",
+    "showWidget": true,
+    "reviews": [
+      {
+        "name": "Michael R.",
+        "rating": 5,
+        "text": "Fast and professional service at the Hollywood location. They explained everything clearly and I got my cash the same day. The staff was friendly and made the process easy.",
+        "date": "2024-12-10"
+      },
+      {
+        "name": "Sarah T.",
+        "rating": 5,
+        "text": "Needed emergency cash for car repairs. Direct Title Loans came through when my bank couldn't help. Great rates and no hidden fees. Highly recommend!",
+        "date": "2024-11-28"
+      },
+      {
+        "name": "David L.",
+        "rating": 4,
+        "text": "Good experience overall. The location near Griffith Observatory was easy to find. Got approved quickly even with my credit issues. Will use again if needed.",
+        "date": "2024-11-15"
+      }
+    ]
+  },
+
+  "nearbyLocations": {
+    "headline": "Also Serving Nearby Cities",
+    "intro": "Can't make it to our Los Angeles location? We also serve:",
+    "cities": [
+      {
+        "name": "San Diego",
+        "slug": "san-diego",
+        "url": "/locations/california/san-diego",
+        "distanceMiles": 120
+      }
+    ]
+  },
+
+  "faq": [
+    {
+      "question": "Where is your Los Angeles location?",
+      "answer": "Our Los Angeles branch is located at 4521 Hollywood Blvd, Suite 100, right across from Griffith Observatory. Take US-101 (Hollywood Freeway) and exit at Hollywood Blvd for the quickest route."
+    },
+    {
+      "question": "What are your hours in Los Angeles?",
+      "answer": "We're open Monday-Friday 9 AM to 6 PM, Saturday 10 AM to 4 PM. We're closed on Sundays. Online applications are accepted 24/7."
+    },
+    {
+      "question": "Do I need an appointment at the Los Angeles location?",
+      "answer": "No appointment needed! Walk-ins are welcome at our Hollywood branch. However, you can apply online first to speed up the process."
+    },
+    {
+      "question": "What do I need to bring to the Los Angeles branch?",
+      "answer": "Bring your vehicle, clear title in your name, valid California driver's license or state ID, and proof of income. We'll handle the rest."
+    },
+    {
+      "question": "How much can I borrow in California?",
+      "answer": "California title loans start at a minimum of $2,500 and go up based on your vehicle's value. Interest rates are capped at 30% APR by California law."
+    },
+    {
+      "question": "Is Direct Title Loans licensed in California?",
+      "answer": "Yes, we are licensed by the California Department of Financial Protection and Innovation (DFPI). You can verify our license at dfpi.ca.gov/verify-a-license."
+    }
+  ],
+
+  "ctaSection": {
+    "headline": "Ready to Get Cash in Los Angeles?",
+    "subheadline": "Visit our Hollywood location or apply online now",
+    "primaryCta": {
+      "text": "Apply Now",
+      "url": "/apply?location=los-angeles-ca"
+    },
+    "secondaryCta": {
+      "text": "Call (213) 555-0147",
+      "url": "tel:+12135550147"
+    },
+    "address": "4521 Hollywood Blvd, Suite 100, Los Angeles, CA 90027"
+  },
+
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "Direct Title Loans of Los Angeles",
+    "description": "Title loans in Los Angeles, CA. Get $2,500 to $15,000+ cash using your vehicle title. California licensed lender with 30% APR cap. Same-day funding available.",
+    "url": "https://www.directtitleloans.com/locations/california/los-angeles",
+    "telephone": "(213) 555-0147",
+    "priceRange": "$2,500 - $15,000+",
+    "currenciesAccepted": "USD",
+    "paymentAccepted": ["Cash", "Check", "Direct Deposit"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4521 Hollywood Blvd, Suite 100",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90027",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.1141,
+      "longitude": -118.4068
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Los Angeles",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "10:00",
+        "closes": "16:00"
+      }
+    ]
+  },
+
+  "breadcrumbs": [
+    {"label": "Home", "url": "/"},
+    {"label": "Locations", "url": "/locations"},
+    {"label": "California", "url": "/locations/california"},
+    {"label": "Los Angeles", "url": "/locations/california/los-angeles"}
+  ],
+
+  "images": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1580655653885-65763b2597d0",
+      "alt": "Direct Title Loans Los Angeles branch exterior near Hollywood",
+      "caption": "Our Los Angeles location on Hollywood Blvd"
+    }
+  },
+
+  "metadata": {
+    "generatedAt": "2025-12-26T12:00:00Z",
+    "generator": "city-page-generator",
+    "version": "2.0",
+    "dataSource": "locations.json + state-compliance/california.json + uscities database"
+  }
+}

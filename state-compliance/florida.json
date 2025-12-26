@@ -1,0 +1,108 @@
+{
+  "stateCode": "FL",
+  "stateName": "Florida",
+  "serviceNiche": "Title Loans",
+  "lastUpdated": "2025-12-26",
+  "lastVerified": "2025-12-26",
+  "researchSources": [
+    "Florida Statutes Chapter 537 - Title Loan Act",
+    "Florida Statutes Chapter 516 - Consumer Finance",
+    "Florida Office of Financial Regulation",
+    "Florida Attorney General Consumer Protection",
+    "Consumer Federation of America"
+  ],
+
+  "legalStatus": {
+    "isLegal": true,
+    "loanTypeAllowed": "Title Loans (Regulated under Ch. 537 and Ch. 516)",
+    "restrictions": "Must be licensed by Florida Office of Financial Regulation; Subject to strict interest rate caps and consumer protection requirements",
+    "notes": "Florida has two regulatory frameworks: Chapter 537 (Title Loan Act) provides stronger consumer protections. Chapter 516 (Consumer Finance) applies to larger loans."
+  },
+
+  "regulations": {
+    "maxLoanAmount": "Up to $25,000 under Ch. 516",
+    "minLoanAmount": "No state minimum",
+    "maxAPR": "30% per annum on first $2,000; 24% per annum on $2,000-$3,000; 18% per annum over $3,000",
+    "maxLoanTerm": "30 days (extendable by mutual consent)",
+    "minLoanTerm": "No state minimum",
+    "allowsRollover": true,
+    "rolloverLimit": "No limit but interest cannot exceed original rate",
+    "coolingOffPeriod": "None required",
+    "paymentPlanRequired": false,
+    "databaseRequired": false,
+    "interestCalculation": "Simple interest only",
+    "capitalizedInterest": false
+  },
+
+  "fees": {
+    "maxOriginationFee": "$25 for credit investigation",
+    "maxLatePaymentFee": "$15 monthly/$7.50 semimonthly after 10 days",
+    "maxNSFFee": "Greater of $20 or actual charge",
+    "prepaymentPenalty": "None allowed",
+    "otherFees": "All fees must be disclosed in writing"
+  },
+
+  "licensing": {
+    "required": true,
+    "licenseType": "Title Loan Lender License (Ch. 537) or Consumer Finance License (Ch. 516)",
+    "regulatoryBody": "Florida Office of Financial Regulation (OFR)",
+    "regulatoryUrl": "https://www.flofr.gov",
+    "verificationUrl": "https://www.flofr.gov/sitePages/LicenseSearch.htm",
+    "contactPhone": "(850) 487-9687"
+  },
+
+  "consumerProtections": {
+    "rightToRescind": {
+      "available": false,
+      "period": "N/A",
+      "notes": "No state-mandated rescission period"
+    },
+    "requiredDisclosures": [
+      "Total cost of loan in dollars and APR",
+      "Payment schedule with all fees",
+      "Written loan agreement required",
+      "Consequences of default",
+      "Right to prepay without penalty"
+    ],
+    "prohibitedPractices": [
+      "Charging more than statutory interest rate caps",
+      "Prepayment penalties",
+      "Capitalizing unpaid interest",
+      "Unlicensed lending operations"
+    ],
+    "collectionRules": {
+      "canRepossess": true,
+      "repossessionNotice": "Required under Ch. 537",
+      "saleNotice": "10 days advance written notice before sale",
+      "deficiencyBalance": "May pursue per loan agreement",
+      "gracePeriod": "Per loan agreement terms",
+      "surplusReturn": "Within 30 days after sale",
+      "rightToReclaim": "Yes, before sale by paying balance plus costs",
+      "personalPropertyReturn": "45 days storage required"
+    }
+  },
+
+  "recentChanges": [
+    {
+      "date": "2024-01-01",
+      "change": "Continued enforcement of tiered APR caps under Florida Title Loan Act",
+      "source": "Florida OFR"
+    }
+  ],
+
+  "cityPageContent": {
+    "headline": "Understanding Title Loan Laws in Florida",
+    "intro": "Residents of {{city}} are protected by Florida's Title Loan Act (Chapter 537) and Consumer Finance regulations enforced by the Office of Financial Regulation.",
+    "keyPoints": [
+      "30% APR cap on first $2,000 of loan amount",
+      "24% APR cap on amounts between $2,000-$3,000",
+      "18% APR cap on amounts over $3,000",
+      "All lenders must be licensed by FL OFR",
+      "Written loan agreement required by law",
+      "10 days written notice required before vehicle sale",
+      "Surplus from sale must be returned within 30 days",
+      "Right to prepay without penalty"
+    ],
+    "disclaimer": "This information is for general educational purposes only and may not reflect the most current legal developments. Laws and regulations change frequently. Always consult with a licensed attorney or contact the Florida Office of Financial Regulation at (850) 487-9687 or visit www.flofr.gov for the most accurate and up-to-date information before making any financial decisions."
+  }
+}

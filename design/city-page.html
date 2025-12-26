@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Title loans in {{city}}, {{state}}. Fast cash using your vehicle title. Licensed, regulated, and compliant with {{state}} laws. Apply online or call today.">
+  <title>Title Loans {{city}} {{state}} | Fast Cash Using Your Vehicle | Direct Title Loans</title>
+  <link rel="stylesheet" href="../../design-system.css">
+  <style>
+    /* City Page Specific Styles */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    .header {
+      background-color: var(--color-white);
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 0;
+      z-index: var(--z-50);
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-4) 0;
+    }
+
+    .logo {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-bold);
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    .nav {
+      display: flex;
+      gap: var(--space-6);
+    }
+
+    .nav a {
+      color: var(--text-primary);
+      text-decoration: none;
+      font-weight: var(--font-medium);
+      transition: color var(--transition-base);
+    }
+
+    .nav a:hover {
+      color: var(--color-primary);
+    }
+
+    /* Breadcrumbs */
+    .breadcrumbs {
+      background-color: var(--bg-secondary);
+      padding: var(--space-4) 0;
+      font-size: var(--text-sm);
+    }
+
+    .breadcrumbs a {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    .breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+
+    .breadcrumbs span {
+      color: var(--text-muted);
+      margin: 0 var(--space-2);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+      color: var(--color-white);
+      padding: var(--space-16) 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url('{{heroImage}}');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.15;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: var(--z-10);
+      max-width: 800px;
+    }
+
+    .hero h1 {
+      font-size: var(--text-5xl);
+      font-weight: var(--font-extrabold);
+      line-height: var(--leading-tight);
+      margin-bottom: var(--space-4);
+    }
+
+    .hero-subheadline {
+      font-size: var(--text-xl);
+      line-height: var(--leading-relaxed);
+      margin-bottom: var(--space-8);
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: var(--space-4);
+      flex-wrap: wrap;
+    }
+
+    /* Local Proof Section */
+    .local-proof {
+      padding: var(--space-12) 0;
+      background-color: var(--bg-secondary);
+    }
+
+    .local-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: var(--space-8);
+      margin-top: var(--space-8);
+    }
+
+    .nap-card {
+      background-color: var(--bg-primary);
+      padding: var(--space-8);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      border-left: 4px solid var(--color-primary);
+    }
+
+    .nap-card h3 {
+      font-size: var(--text-xl);
+      font-weight: var(--font-bold);
+      color: var(--color-primary);
+      margin-bottom: var(--space-4);
+    }
+
+    .nap-item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      margin-bottom: var(--space-3);
+    }
+
+    .nap-icon {
+      color: var(--color-secondary);
+      font-size: var(--text-xl);
+      flex-shrink: 0;
+    }
+
+    .nap-item p {
+      font-size: var(--text-base);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+      margin: 0;
+    }
+
+    .nap-item a {
+      color: var(--color-primary);
+      text-decoration: none;
+      font-weight: var(--font-semibold);
+    }
+
+    .nap-item a:hover {
+      text-decoration: underline;
+    }
+
+    .hours-table {
+      margin-top: var(--space-4);
+    }
+
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      padding: var(--space-2) 0;
+      border-bottom: 1px solid var(--color-gray-200);
+    }
+
+    .hours-row:last-child {
+      border-bottom: none;
+    }
+
+    .hours-day {
+      font-weight: var(--font-semibold);
+      color: var(--text-primary);
+    }
+
+    .hours-time {
+      color: var(--text-secondary);
+    }
+
+    .map-container {
+      background-color: var(--bg-primary);
+      padding: var(--space-6);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+    }
+
+    .map-embed {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      border-radius: var(--radius-lg);
+    }
+
+    .local-landmarks {
+      margin-top: var(--space-4);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--color-gray-200);
+    }
+
+    .local-landmarks h4 {
+      font-size: var(--text-base);
+      font-weight: var(--font-semibold);
+      color: var(--text-primary);
+      margin-bottom: var(--space-2);
+    }
+
+    .landmarks-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .landmark-tag {
+      background-color: var(--bg-accent);
+      color: var(--color-primary);
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-full);
+      font-size: var(--text-sm);
+      font-weight: var(--font-medium);
+    }
+
+    /* Services Section */
+    .services-section {
+      padding: var(--space-12) 0;
+      background-color: var(--bg-primary);
+    }
+
+    .section-header {
+      margin-bottom: var(--space-8);
+    }
+
+    .section-header h2 {
+      font-size: var(--text-3xl);
+      font-weight: var(--font-bold);
+      color: var(--text-primary);
+      margin-bottom: var(--space-3);
+    }
+
+    .section-header p {
+      font-size: var(--text-lg);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--space-6);
+    }
+
+    .service-card {
+      background-color: var(--bg-secondary);
+      padding: var(--space-6);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-base);
+      text-decoration: none;
+      color: inherit;
+      border: 2px solid transparent;
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--color-primary);
+    }
+
+    .service-card h3 {
+      font-size: var(--text-lg);
+      font-weight: var(--font-semibold);
+      color: var(--color-primary);
+      margin-bottom: var(--space-2);
+    }
+
+    .service-card p {
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+    }
+
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-1);
+      margin-top: var(--space-3);
+      color: var(--color-primary);
+      font-size: var(--text-sm);
+      font-weight: var(--font-semibold);
+      text-decoration: none;
+    }
+
+    .service-link:hover {
+      text-decoration: underline;
+    }
+
+    /* State Compliance Section */
+    .compliance-section {
+      padding: var(--space-12) 0;
+      background-color: var(--bg-accent);
+    }
+
+    .compliance-content {
+      background-color: var(--bg-primary);
+      padding: var(--space-8);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      border-left: 4px solid var(--color-warning);
+    }
+
+    .compliance-header {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      margin-bottom: var(--space-6);
+    }
+
+    .compliance-icon {
+      width: 48px;
+      height: 48px;
+      background-color: var(--color-warning);
+      color: var(--color-white);
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--text-2xl);
+    }
+
+    .compliance-header h2 {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-bold);
+      color: var(--text-primary);
+      margin: 0;
+    }
+
+    .compliance-intro {
+      font-size: var(--text-base);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+      margin-bottom: var(--space-6);
+    }
+
+    .key-points {
+      background-color: var(--bg-secondary);
+      padding: var(--space-6);
+      border-radius: var(--radius-lg);
+      margin-bottom: var(--space-6);
+    }
+
+    .key-points h3 {
+      font-size: var(--text-lg);
+      font-weight: var(--font-semibold);
+      color: var(--text-primary);
+      margin-bottom: var(--space-4);
+    }
+
+    .key-points ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .key-points li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      margin-bottom: var(--space-3);
+      font-size: var(--text-base);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+    }
+
+    .key-points li::before {
+      content: '✓';
+      color: var(--color-secondary);
+      font-weight: var(--font-bold);
+      font-size: var(--text-lg);
+      flex-shrink: 0;
+    }
+
+    .regulatory-info {
+      padding: var(--space-4);
+      background-color: var(--color-gray-100);
+      border-radius: var(--radius-lg);
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+    }
+
+    .regulatory-info a {
+      color: var(--color-primary);
+      font-weight: var(--font-semibold);
+      text-decoration: none;
+    }
+
+    .regulatory-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* Reviews Section */
+    .reviews-section {
+      padding: var(--space-12) 0;
+      background-color: var(--bg-secondary);
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: var(--space-6);
+      margin-top: var(--space-8);
+    }
+
+    .review-card {
+      background-color: var(--bg-primary);
+      padding: var(--space-6);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+    }
+
+    .stars {
+      color: var(--color-warning);
+      font-size: var(--text-lg);
+      margin-bottom: var(--space-3);
+    }
+
+    .review-text {
+      font-size: var(--text-base);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+      margin-bottom: var(--space-3);
+      font-style: italic;
+    }
+
+    .review-author {
+      font-size: var(--text-sm);
+      color: var(--text-muted);
+      font-weight: var(--font-semibold);
+    }
+
+    /* FAQ Section */
+    .faq-section {
+      padding: var(--space-12) 0;
+      background-color: var(--bg-primary);
+    }
+
+    .faq-list {
+      margin-top: var(--space-8);
+    }
+
+    .faq-item {
+      background-color: var(--bg-secondary);
+      padding: var(--space-6);
+      border-radius: var(--radius-lg);
+      margin-bottom: var(--space-4);
+    }
+
+    .faq-question {
+      font-size: var(--text-lg);
+      font-weight: var(--font-semibold);
+      color: var(--text-primary);
+      margin-bottom: var(--space-3);
+    }
+
+    .faq-answer {
+      font-size: var(--text-base);
+      color: var(--text-secondary);
+      line-height: var(--leading-relaxed);
+    }
+
+    /* Nearby Locations */
+    .nearby-section {
+      padding: var(--space-12) 0;
+      background-color: var(--bg-secondary);
+    }
+
+    .nearby-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: var(--space-4);
+      margin-top: var(--space-8);
+    }
+
+    .nearby-card {
+      background-color: var(--bg-primary);
+      padding: var(--space-4);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      text-decoration: none;
+      color: inherit;
+      transition: all var(--transition-base);
+    }
+
+    .nearby-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .nearby-card h3 {
+      font-size: var(--text-base);
+      font-weight: var(--font-semibold);
+      color: var(--color-primary);
+      margin-bottom: var(--space-1);
+    }
+
+    .nearby-distance {
+      font-size: var(--text-sm);
+      color: var(--text-muted);
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: var(--space-16) 0;
+      background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-dark) 100%);
+      color: var(--color-white);
+      text-align: center;
+    }
+
+    .cta-section h2 {
+      font-size: var(--text-4xl);
+      font-weight: var(--font-bold);
+      margin-bottom: var(--space-4);
+    }
+
+    .cta-section p {
+      font-size: var(--text-xl);
+      margin-bottom: var(--space-8);
+      opacity: 0.95;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: var(--space-4);
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: var(--color-gray-900);
+      color: var(--color-gray-300);
+      padding: var(--space-12) 0 var(--space-6);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: var(--space-8);
+      margin-bottom: var(--space-8);
+    }
+
+    .footer-section h3 {
+      font-size: var(--text-lg);
+      font-weight: var(--font-semibold);
+      color: var(--color-white);
+      margin-bottom: var(--space-4);
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: var(--space-2);
+    }
+
+    .footer-links a {
+      color: var(--color-gray-300);
+      text-decoration: none;
+      transition: color var(--transition-base);
+      font-size: var(--text-sm);
+    }
+
+    .footer-links a:hover {
+      color: var(--color-white);
+    }
+
+    .footer-disclaimer {
+      border-top: 1px solid var(--color-gray-700);
+      padding-top: var(--space-6);
+      font-size: var(--text-sm);
+      color: var(--color-gray-400);
+      line-height: var(--leading-relaxed);
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: var(--space-6);
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--color-gray-700);
+      font-size: var(--text-sm);
+      color: var(--color-gray-400);
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: var(--text-3xl);
+      }
+
+      .hero-cta {
+        flex-direction: column;
+      }
+
+      .hero-cta .btn {
+        width: 100%;
+      }
+
+      .local-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-container">
+        <a href="/" class="logo">Direct Title Loans</a>
+        <nav class="nav">
+          <a href="/services">Services</a>
+          <a href="/locations">Locations</a>
+          <a href="/apply" class="btn btn-primary">Apply Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumbs -->
+  <div class="breadcrumbs">
+    <div class="container">
+      <a href="/">Home</a>
+      <span>→</span>
+      <a href="/locations">Locations</a>
+      <span>→</span>
+      <a href="/locations/{{stateSlug}}">{{state}}</a>
+      <span>→</span>
+      <strong>{{city}}</strong>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Title Loans in {{city}}, {{state}}</h1>
+        <p class="hero-subheadline">Fast cash using your vehicle title. Licensed and regulated in {{state}}. Keep your car, get approved in minutes, same-day funding available.</p>
+        <div class="hero-cta">
+          <a href="/apply" class="btn btn-large" style="background-color: var(--color-white); color: var(--color-primary);">Apply Now - Get Cash Today</a>
+          <a href="tel:{{phoneNumber}}" class="btn btn-large btn-outline" style="border-color: var(--color-white); color: var(--color-white);">Call {{phoneNumber}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local Proof Section -->
+  <section class="local-proof">
+    <div class="container">
+      <div class="local-grid">
+
+        <!-- NAP Card -->
+        <div class="nap-card">
+          <h3>{{city}} Location</h3>
+
+          <div class="nap-item">
+            <span class="nap-icon">📍</span>
+            <p>{{address}}</p>
+          </div>
+
+          <div class="nap-item">
+            <span class="nap-icon">📞</span>
+            <p><a href="tel:{{phoneNumber}}">{{phoneNumber}}</a></p>
+          </div>
+
+          <div class="nap-item">
+            <span class="nap-icon">📧</span>
+            <p><a href="mailto:{{email}}">{{email}}</a></p>
+          </div>
+
+          <div class="hours-table">
+            <h4 style="font-size: var(--text-base); font-weight: var(--font-semibold); color: var(--text-primary); margin-bottom: var(--space-3);">Business Hours</h4>
+            <div class="hours-row">
+              <span class="hours-day">Monday</span>
+              <span class="hours-time">{{hours.monday}}</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Tuesday</span>
+              <span class="hours-time">{{hours.tuesday}}</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Wednesday</span>
+              <span class="hours-time">{{hours.wednesday}}</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Thursday</span>
+              <span class="hours-time">{{hours.thursday}}</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Friday</span>
+              <span class="hours-time">{{hours.friday}}</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Saturday</span>
+              <span class="hours-time">{{hours.saturday}}</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Sunday</span>
+              <span class="hours-time">{{hours.sunday}}</span>
+            </div>
+          </div>
+
+          <div class="local-landmarks">
+            <h4>Nearby Landmarks</h4>
+            <div class="landmarks-list">
+              <span class="landmark-tag">{{landmark1}}</span>
+              <span class="landmark-tag">{{landmark2}}</span>
+              <span class="landmark-tag">{{landmark3}}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="map-container">
+          <iframe
+            class="map-embed"
+            src="{{mapEmbedUrl}}"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="{{city}} Location Map">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Title Loan Services in {{city}}</h2>
+        <p>All 10 of our specialized title loan services are available to {{city}} residents. Click any service below to learn more.</p>
+      </div>
+      <div class="services-grid">
+
+        <a href="/services/car-title-loans" class="service-card">
+          <h3>Car Title Loans</h3>
+          <p>Use your vehicle title as collateral to get fast cash. Keep driving your car while you repay.</p>
+          <span class="service-link">Learn More →</span>
+        </a>
+
+        <a href="/services/online-title-loans" class="service-card">
+          <h3>Online Title Loans</h3>
+          <p>Apply entirely online. No store visit required - we come to you for vehicle inspection.</p>
+          <span class="service-link">Learn More →</span>
+        </a>
+
+        <a href="/services/same-day-title-loans" class="service-card">
+          <h3>Same Day Title Loans</h3>
+          <p>Get approved and funded in as little as 30 minutes. Same-day cash when you need it most.</p>
+          <span class="service-link">Learn More →</span>
+        </a>
+
+        <a href="/services/bad-credit-title-loans" class="service-card">
+          <h3>Bad Credit Title Loans</h3>
+          <p>Your credit score is not a major factor. We focus on your vehicle's value and ability to repay.</p>
+          <span class="service-link">Learn More →</span>
+        </a>
+
+        <a href="/services/title-loan-refinancing" class="service-card">
+          <h3>Title Loan Refinancing</h3>
+          <p>Refinance your existing title loan for better rates, lower payments, or additional cash.</p>
+          <span class="service-link">Learn More →</span>
+        </a>
+
+        <a href="/services/motorcycle-title-loans" class="service-card">
+          <h3>Motorcycle Title Loans</h3>
+          <p>Use your motorcycle title to secure fast cash. Same quick approval process.</p>
+          <span class="service-link">Learn More →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- State Compliance Section -->
+  <section class="compliance-section">
+    <div class="container">
+      <div class="compliance-content">
+        <div class="compliance-header">
+          <div class="compliance-icon">⚖️</div>
+          <h2>{{state}} Title Loan Laws</h2>
+        </div>
+
+        <p class="compliance-intro">{{complianceIntro}}</p>
+
+        <div class="key-points">
+          <h3>Key Consumer Protections</h3>
+          <ul>
+            <li>{{keyPoint1}}</li>
+            <li>{{keyPoint2}}</li>
+            <li>{{keyPoint3}}</li>
+            <li>{{keyPoint4}}</li>
+            <li>{{keyPoint5}}</li>
+          </ul>
+        </div>
+
+        <div class="regulatory-info">
+          <p><strong>Regulatory Body:</strong> <a href="{{regulatoryUrl}}" target="_blank" rel="noopener">{{regulatoryBody}}</a></p>
+          <p style="margin-top: var(--space-2);">{{disclaimer}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{city}} Customer Reviews</h2>
+        <p>Real experiences from real customers in {{city}}, {{state}}.</p>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">{{review1Text}}</p>
+          <p class="review-author">— {{review1Author}}, {{city}}</p>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">{{review2Text}}</p>
+          <p class="review-author">— {{review2Author}}, {{city}}</p>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">{{review3Text}}</p>
+          <p class="review-author">— {{review3Author}}, {{city}}</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{city}} Title Loan FAQs</h2>
+        <p>Common questions from {{city}} residents about our title loan services.</p>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <h3 class="faq-question">{{faq1Question}}</h3>
+          <p class="faq-answer">{{faq1Answer}}</p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question">{{faq2Question}}</h3>
+          <p class="faq-answer">{{faq2Answer}}</p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question">{{faq3Question}}</h3>
+          <p class="faq-answer">{{faq3Answer}}</p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question">{{faq4Question}}</h3>
+          <p class="faq-answer">{{faq4Answer}}</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby Locations -->
+  <section class="nearby-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nearby Locations</h2>
+        <p>We also serve these nearby cities in {{state}}.</p>
+      </div>
+      <div class="nearby-grid">
+
+        <a href="/locations/{{stateSlug}}/{{nearby1Slug}}" class="nearby-card">
+          <h3>{{nearby1Name}}</h3>
+          <p class="nearby-distance">{{nearby1Distance}} miles away</p>
+        </a>
+
+        <a href="/locations/{{stateSlug}}/{{nearby2Slug}}" class="nearby-card">
+          <h3>{{nearby2Name}}</h3>
+          <p class="nearby-distance">{{nearby2Distance}} miles away</p>
+        </a>
+
+        <a href="/locations/{{stateSlug}}/{{nearby3Slug}}" class="nearby-card">
+          <h3>{{nearby3Name}}</h3>
+          <p class="nearby-distance">{{nearby3Distance}} miles away</p>
+        </a>
+
+        <a href="/locations/{{stateSlug}}/{{nearby4Slug}}" class="nearby-card">
+          <h3>{{nearby4Name}}</h3>
+          <p class="nearby-distance">{{nearby4Distance}} miles away</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to Get Started in {{city}}?</h2>
+      <p>Apply now and get approved in minutes. Same-day funding available for {{city}} residents.</p>
+      <div class="cta-buttons">
+        <a href="/apply" class="btn btn-large" style="background-color: var(--color-white); color: var(--color-secondary);">Apply Online Now</a>
+        <a href="tel:{{phoneNumber}}" class="btn btn-large btn-outline" style="border-color: var(--color-white); color: var(--color-white);">Call {{phoneNumber}}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="/services/car-title-loans">Car Title Loans</a></li>
+            <li><a href="/services/online-title-loans">Online Title Loans</a></li>
+            <li><a href="/services/same-day-title-loans">Same Day Title Loans</a></li>
+            <li><a href="/services/bad-credit-title-loans">Bad Credit Title Loans</a></li>
+            <li><a href="/services/title-loan-refinancing">Title Loan Refinancing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>{{state}} Locations</h3>
+          <ul class="footer-links">
+            <li><a href="/locations/{{stateSlug}}/{{city1Slug}}">{{city1Name}}, {{state}}</a></li>
+            <li><a href="/locations/{{stateSlug}}/{{city2Slug}}">{{city2Name}}, {{state}}</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms & Conditions</a></li>
+            <li><a href="/ccpa">CCPA Privacy Rights</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul class="footer-links">
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/apply">Apply Now</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-disclaimer">
+        <p><strong>Important Disclosure:</strong> Title loans are expensive forms of credit and should only be used for short-term financial needs. Borrowing more than you can afford to repay may result in the loss of your vehicle through repossession.</p>
+
+        <p style="margin-top: var(--space-4);"><strong>{{state}} Compliance:</strong> {{stateDisclaimer}}</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Direct Title Loans. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

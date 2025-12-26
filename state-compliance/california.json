@@ -1,0 +1,103 @@
+{
+  "stateCode": "CA",
+  "stateName": "California",
+  "serviceNiche": "Title Loans",
+  "lastUpdated": "2025-12-26",
+  "lastVerified": "2025-12-26",
+  "researchSources": [
+    "California Department of Financial Protection and Innovation (DFPI)",
+    "California Financial Code Division 9 (Sections 22000-22780)",
+    "California Finance Code Section 22303, 22304, 22304.5",
+    "California Finance Code Section 22307.5 (Prepayment)",
+    "CarsDirect California Title Loan Analysis 2024"
+  ],
+
+  "legalStatus": {
+    "isLegal": true,
+    "loanTypeAllowed": "Title Loans (Regulated)",
+    "restrictions": "Subject to California Financing Law; APR capped at 30%; Minimum loan $2,500",
+    "notes": "California allows title loans but with strict consumer protections under California Finance Code Division 9"
+  },
+
+  "regulations": {
+    "maxLoanAmount": "Up to vehicle fair market value",
+    "minLoanAmount": "$2,500",
+    "maxAPR": "30% per annum",
+    "maxLoanTerm": "Typically 24-44 months",
+    "minLoanTerm": "No state minimum",
+    "allowsRollover": false,
+    "rolloverLimit": "N/A - Rollovers not permitted",
+    "coolingOffPeriod": "None required",
+    "paymentPlanRequired": false,
+    "databaseRequired": false,
+    "interestCalculation": "Based on loan principal amount and vehicle value"
+  },
+
+  "fees": {
+    "maxOriginationFee": "$75 for loans over $2,500",
+    "maxLatePaymentFee": "Per loan agreement terms",
+    "maxNSFFee": "Per loan agreement terms",
+    "prepaymentPenalty": "None allowed per Section 22307.5",
+    "repossessionFees": "Actual fees up to $500 for licensed repossession agencies",
+    "otherFees": "All fees must be disclosed upfront"
+  },
+
+  "licensing": {
+    "required": true,
+    "licenseType": "California Financing Law License (CFL)",
+    "regulatoryBody": "Department of Financial Protection and Innovation (DFPI)",
+    "regulatoryUrl": "https://dfpi.ca.gov",
+    "verificationUrl": "https://dfpi.ca.gov/verify-a-license/",
+    "contactPhone": "(866) 275-2677"
+  },
+
+  "consumerProtections": {
+    "rightToRescind": {
+      "available": false,
+      "period": "N/A",
+      "notes": "No state-mandated rescission period for title loans"
+    },
+    "requiredDisclosures": [
+      "Total loan cost in dollars and APR",
+      "Payment schedule with all fees",
+      "Consequences of default and repossession",
+      "DFPI license number and contact information",
+      "Right to prepay without penalty"
+    ],
+    "prohibitedPractices": [
+      "Charging more than 30% APR",
+      "Prepayment penalties",
+      "Loans under $2,500 as title loans",
+      "Unlicensed lending operations"
+    ],
+    "collectionRules": {
+      "canRepossess": true,
+      "repossessionNotice": "Written notice required before repossession",
+      "deficiencyBalance": "May pursue per loan agreement",
+      "gracePeriod": "Per loan agreement terms",
+      "maxRepossessionFee": "$500 to licensed agencies"
+    }
+  },
+
+  "recentChanges": [
+    {
+      "date": "2024-01-01",
+      "change": "Continued enforcement of 30% APR cap under California Financing Law",
+      "source": "California DFPI"
+    }
+  ],
+
+  "cityPageContent": {
+    "headline": "Understanding Title Loan Laws in California",
+    "intro": "Residents of {{city}} benefit from California's strong consumer protection laws enforced by the Department of Financial Protection and Innovation (DFPI).",
+    "keyPoints": [
+      "California caps title loan interest at 30% APR",
+      "Minimum loan amount is $2,500",
+      "All lenders must be licensed by DFPI",
+      "No prepayment penalties allowed",
+      "Lenders must provide clear disclosure of all costs",
+      "Verify lender license at dfpi.ca.gov before signing"
+    ],
+    "disclaimer": "This information is for general educational purposes only and may not reflect the most current legal developments. Laws and regulations change frequently. Always consult with a licensed attorney or contact the California DFPI at (866) 275-2677 or visit dfpi.ca.gov for the most accurate and up-to-date information before making any financial decisions."
+  }
+}

@@ -1,0 +1,853 @@
+{
+  "schemaVersion": "1.0",
+  "serviceNiche": "Title Loans",
+  "businessName": "Direct Title Loans",
+  "totalServices": 10,
+  "lastUpdated": "2025-12-26",
+  "dataSource": "Jina AI research from TitleMax, MaxCash, ACE Cash Express, LoanMart, Missouri Title Loans, Texas Car Title Loans, and industry sources",
+  "isYMYL": true,
+  "schemaType": "FinancialService",
+
+  "services": [
+    {
+      "name": "Car Title Loans",
+      "slug": "car-title-loans",
+      "category": "primary",
+      "description": "Use your vehicle title as collateral to get fast cash. Keep driving your car while you repay the loan.",
+      "loanAmounts": "$100 - $15,000",
+      "isPrimary": true
+    },
+    {
+      "name": "Online Title Loans",
+      "slug": "online-title-loans",
+      "category": "primary",
+      "description": "Apply for a title loan entirely online. No store visit required - we come to you for vehicle inspection.",
+      "loanAmounts": "$100 - $15,000",
+      "isPrimary": true
+    },
+    {
+      "name": "Same Day Title Loans",
+      "slug": "same-day-title-loans",
+      "category": "speed",
+      "description": "Get approved and funded in as little as 30 minutes. Same-day cash when you need it most.",
+      "loanAmounts": "$100 - $10,000",
+      "isPrimary": false
+    },
+    {
+      "name": "Bad Credit Title Loans",
+      "slug": "bad-credit-title-loans",
+      "category": "credit",
+      "description": "Your credit score is not a major factor. We focus on your vehicle's value and ability to repay.",
+      "loanAmounts": "$100 - $10,000",
+      "isPrimary": false
+    },
+    {
+      "name": "Title Loan Refinancing",
+      "slug": "title-loan-refinancing",
+      "category": "refinance",
+      "description": "Refinance your existing title loan for better rates, lower payments, or additional cash.",
+      "loanAmounts": "Varies based on equity",
+      "isPrimary": false
+    },
+    {
+      "name": "Motorcycle Title Loans",
+      "slug": "motorcycle-title-loans",
+      "category": "vehicle-type",
+      "description": "Use your motorcycle title to secure fast cash. Same quick approval process as car title loans.",
+      "loanAmounts": "$100 - $5,000",
+      "isPrimary": false
+    },
+    {
+      "name": "Truck Title Loans",
+      "slug": "truck-title-loans",
+      "category": "vehicle-type",
+      "description": "Get cash using your truck title as collateral. Higher loan amounts available for commercial vehicles.",
+      "loanAmounts": "$500 - $20,000",
+      "isPrimary": false
+    },
+    {
+      "name": "RV Title Loans",
+      "slug": "rv-title-loans",
+      "category": "vehicle-type",
+      "description": "Unlock the equity in your recreational vehicle. Competitive rates for RV and camper title loans.",
+      "loanAmounts": "$1,000 - $25,000",
+      "isPrimary": false
+    },
+    {
+      "name": "Title Loan Buyout",
+      "slug": "title-loan-buyout",
+      "category": "refinance",
+      "description": "We pay off your existing title loan with another lender and offer you better terms.",
+      "loanAmounts": "Varies based on payoff amount",
+      "isPrimary": false
+    },
+    {
+      "name": "Commercial Vehicle Title Loans",
+      "slug": "commercial-vehicle-title-loans",
+      "category": "commercial",
+      "description": "Business owners can use commercial vehicle titles to access working capital quickly.",
+      "loanAmounts": "$1,000 - $50,000",
+      "isPrimary": false
+    }
+  ],
+
+  "examples": [
+    {
+      "id": "car-title-loans-houston-tx",
+      "service": "Car Title Loans",
+      "serviceSlug": "car-title-loans",
+      "location": "Houston",
+      "state": "Texas",
+      "stateAbbr": "TX",
+      "locationSlug": "houston",
+      "serviceNiche": "Title Loans",
+      "businessName": "Direct Title Loans",
+
+      "pageTitle": "Car Title Loans Houston TX | Get Up to $15,000 Cash Today",
+      "metaDescription": "Need fast cash in Houston? Get a car title loan up to $15,000. Bad credit OK, keep your car, same-day funding available. Apply online or call now!",
+      "heroHeadline": "Houston Car Title Loans - Fast Cash When You Need It",
+      "heroSubheadline": "Get Up to $15,000 Today | Keep Driving Your Car | Bad Credit Welcome",
+
+      "description": "When you need emergency cash in Houston, a car title loan from Direct Title Loans provides a fast and convenient solution. Using your vehicle's title as collateral, you can access funds from $100 to $15,000 based on your car's value and your ability to repay.\n\nUnlike traditional bank loans that can take weeks to process and require excellent credit, our Houston title loans offer same-day approval and funding. Your credit score is not the primary factor in our decision - we focus on the equity in your vehicle and your income.\n\nThe best part? You keep driving your car throughout the loan term. We only hold your title as collateral while you make your payments. Once your loan is paid off, your title is returned to you free and clear.\n\nOur Houston team understands that financial emergencies don't wait for convenient times. That's why we offer flexible hours, online applications, and a streamlined process designed to get you cash as quickly as possible. Whether you need money for medical bills, car repairs, rent, or any other urgent expense, we're here to help.",
+
+      "shortDescription": "Get fast cash with a car title loan in Houston, TX. Borrow up to $15,000 using your vehicle title. Bad credit OK, keep your car, same-day funding available.",
+
+      "benefits": [
+        "Loan amounts from $100 to $15,000 based on vehicle value",
+        "Bad credit, no credit, or past bankruptcy - all welcome",
+        "Keep driving your vehicle during the loan term",
+        "Same-day approval and funding available",
+        "No hidden fees - transparent pricing upfront",
+        "Flexible repayment terms to fit your budget",
+        "Apply online, by phone, or visit our Houston location",
+        "Licensed and regulated Texas lender"
+      ],
+
+      "process": [
+        {
+          "step": 1,
+          "title": "Apply Online or Call",
+          "description": "Fill out our simple online form or call our Houston team. Provide basic info about yourself and your vehicle."
+        },
+        {
+          "step": 2,
+          "title": "Get Pre-Approved",
+          "description": "Receive a quick pre-approval decision based on your vehicle's value. No obligation to proceed."
+        },
+        {
+          "step": 3,
+          "title": "Vehicle Inspection",
+          "description": "Bring your car to our Houston location or we come to you. Quick inspection takes just minutes."
+        },
+        {
+          "step": 4,
+          "title": "Sign & Get Cash",
+          "description": "Review your loan terms, sign the agreement, and receive your cash - often in 30 minutes or less."
+        }
+      ],
+
+      "requirements": [
+        "Valid government-issued photo ID (driver's license or state ID)",
+        "Clear, lien-free vehicle title in your name",
+        "Vehicle for inspection (car, truck, motorcycle, or RV)",
+        "Proof of income (pay stubs, bank statements, or tax returns)",
+        "Proof of residence (utility bill, lease, or bank statement)",
+        "Proof of vehicle insurance"
+      ],
+
+      "pricingInfo": "Loan amounts and rates vary based on vehicle value, condition, and your ability to repay. We provide a detailed fee schedule and APR disclosure before you sign any agreement. No hidden fees or prepayment penalties.",
+
+      "serviceArea": "Houston and surrounding Harris County areas including Pasadena, Sugar Land, The Woodlands, Pearland, and Katy",
+      "availability": "Monday-Friday 9AM-7PM, Saturday 9AM-5PM. Online applications accepted 24/7.",
+
+      "qualifications": [
+        "Licensed by the Texas Office of Consumer Credit Commissioner",
+        "Registered Credit Access Business (CAB)",
+        "Member of the American Financial Services Association"
+      ],
+      "yearsExperience": "15+ years",
+      "guarantees": [
+        "No hidden fees guarantee",
+        "Best rate guarantee - we'll match competitor rates",
+        "Customer satisfaction commitment"
+      ],
+      "emergencyAvailable": true,
+
+      "images": {
+        "heroImage": {
+          "url": "https://images.unsplash.com/photo-1560472355-536de3962603",
+          "alt": "Car title loan customer receiving cash in Houston",
+          "caption": "Fast Cash Title Loans in Houston, TX"
+        },
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+            "alt": "Modern car eligible for title loan",
+            "caption": "Most vehicles qualify for title loans"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+            "alt": "Signing title loan documents",
+            "caption": "Simple application process"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e",
+            "alt": "Cash from title loan",
+            "caption": "Same-day cash available"
+          }
+        ]
+      },
+
+      "h2Headings": [
+        "How Do Car Title Loans Work in Houston?",
+        "Requirements for a Houston Title Loan",
+        "Why Choose Direct Title Loans in Houston?",
+        "Houston Title Loan FAQs",
+        "Apply for Your Houston Title Loan Today"
+      ],
+
+      "faq": [
+        {
+          "question": "How much can I borrow with a title loan in Houston?",
+          "answer": "Loan amounts range from $100 to $15,000 in Houston. The amount you qualify for depends on your vehicle's value, condition, mileage, and your ability to repay. Most customers receive between 25-50% of their vehicle's market value."
+        },
+        {
+          "question": "Do I need good credit for a title loan?",
+          "answer": "No, your credit score is not the primary factor in approval. We focus on your vehicle's equity and your income. Bad credit, no credit, and even past bankruptcy are welcome to apply."
+        },
+        {
+          "question": "Can I still drive my car with a title loan?",
+          "answer": "Yes! You keep driving your vehicle throughout the loan term. We only hold your title as collateral. Once you pay off your loan, we return your title."
+        },
+        {
+          "question": "How fast can I get money from a title loan?",
+          "answer": "Many customers receive their cash the same day they apply. Once approved, funding can happen in as little as 30 minutes at our Houston location."
+        },
+        {
+          "question": "What vehicles qualify for a title loan in Houston?",
+          "answer": "Most cars, trucks, motorcycles, and RVs qualify as long as you have a clear, lien-free title in your name. The vehicle should be in running condition and properly registered."
+        },
+        {
+          "question": "What if I still owe money on my car?",
+          "answer": "If you have an existing loan on your vehicle, you may still qualify. We can pay off your current lender and refinance the remaining balance, potentially giving you additional cash."
+        },
+        {
+          "question": "Are title loans legal in Texas?",
+          "answer": "Yes, title loans are legal in Texas. Direct Title Loans is licensed by the Texas Office of Consumer Credit Commissioner and operates as a registered Credit Access Business (CAB)."
+        },
+        {
+          "question": "What happens if I can't make a payment?",
+          "answer": "Contact us immediately if you're having trouble making a payment. We work with our customers to find solutions, which may include payment extensions or modified payment plans."
+        }
+      ],
+
+      "keywords": [
+        "car title loans",
+        "auto title loans",
+        "title loans",
+        "vehicle title loans",
+        "fast cash loans",
+        "bad credit loans",
+        "same day loans",
+        "emergency loans"
+      ],
+      "localKeywords": [
+        "car title loans Houston",
+        "title loans Houston TX",
+        "Houston title loans",
+        "auto title loans Houston",
+        "title loan near me Houston",
+        "fast cash Houston",
+        "title loans Harris County"
+      ],
+
+      "ctaPhone": "(713) 555-CASH",
+      "ctaText": "Apply Now - Get Cash Today",
+      "ctaUrl": "/apply",
+      "ctaSecondary": "Call for Instant Quote",
+
+      "stateCompliance": {
+        "regulatoryBody": "Texas Office of Consumer Credit Commissioner",
+        "regulatoryUrl": "https://occc.texas.gov",
+        "licenseType": "Credit Access Business (CAB)",
+        "maxAPR": "No state cap - disclosed per loan",
+        "disclosures": [
+          "A motor vehicle title loan is a high-cost loan. The fees and interest rates are very expensive.",
+          "If you do not pay back your loan, the lender may repossess and sell your vehicle.",
+          "In Texas, title loans are arranged through licensed Credit Access Businesses (CABs)."
+        ]
+      },
+
+      "localProof": {
+        "address": "1234 Westheimer Road, Houston, TX 77006",
+        "phone": "(713) 555-2274",
+        "localAreaCode": "713",
+        "nearbyLandmarks": ["Near The Galleria", "Off Loop 610"],
+        "googleMapsUrl": "https://maps.google.com/?q=1234+Westheimer+Road+Houston+TX",
+        "hours": {
+          "monday": "9:00 AM - 7:00 PM",
+          "tuesday": "9:00 AM - 7:00 PM",
+          "wednesday": "9:00 AM - 7:00 PM",
+          "thursday": "9:00 AM - 7:00 PM",
+          "friday": "9:00 AM - 7:00 PM",
+          "saturday": "9:00 AM - 5:00 PM",
+          "sunday": "Closed"
+        }
+      },
+
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "name": "Direct Title Loans - Houston",
+        "description": "Car title loans in Houston, TX. Get up to $15,000 cash using your vehicle title. Bad credit OK, same-day funding available.",
+        "url": "https://www.directtitleloans.com/locations/texas/houston/",
+        "telephone": "(713) 555-2274",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1234 Westheimer Road",
+          "addressLocality": "Houston",
+          "addressRegion": "TX",
+          "postalCode": "77006",
+          "addressCountry": "US"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Houston",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Texas"
+          }
+        },
+        "priceRange": "$100 - $15,000",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": ["Cash", "Check", "Direct Deposit"]
+      }
+    },
+    {
+      "id": "online-title-loans-phoenix-az",
+      "service": "Online Title Loans",
+      "serviceSlug": "online-title-loans",
+      "location": "Phoenix",
+      "state": "Arizona",
+      "stateAbbr": "AZ",
+      "locationSlug": "phoenix",
+      "serviceNiche": "Title Loans",
+      "businessName": "Direct Title Loans",
+
+      "pageTitle": "Online Title Loans Phoenix AZ | Apply From Home | Same Day Cash",
+      "metaDescription": "Apply for an online title loan in Phoenix from the comfort of your home. No store visit required. Get up to $10,000 with same-day funding. Start now!",
+      "heroHeadline": "Phoenix Online Title Loans - Apply From Home",
+      "heroSubheadline": "No Store Visit Required | We Come to You | Same Day Funding",
+
+      "description": "Getting a title loan in Phoenix has never been easier. With our online title loan process, you can apply from the comfort of your home, office, or anywhere with an internet connection. No need to visit a store or wait in line.\n\nOur streamlined online application takes just minutes to complete. Simply provide information about yourself and your vehicle, and you'll receive a quick pre-approval decision. If approved, we'll schedule a convenient time to meet you at a location of your choice for a quick vehicle inspection.\n\nOnce we verify your vehicle and documentation, you can receive your funds the same day - deposited directly into your bank account or via check. The entire process can be completed in as little as a few hours.\n\nAs an Arizona-licensed lender, we offer competitive rates and transparent terms. There are no hidden fees, and we'll explain everything before you sign. Whether you're in downtown Phoenix, Scottsdale, Mesa, or anywhere in Maricopa County, our mobile team can meet you where it's convenient.",
+
+      "shortDescription": "Apply for an online title loan in Phoenix from home. No store visit needed - we come to you. Get up to $10,000 with same-day funding. Bad credit OK.",
+
+      "benefits": [
+        "100% online application - no store visit required",
+        "We come to you for vehicle inspection",
+        "Same-day funding via direct deposit",
+        "Loan amounts from $100 to $10,000",
+        "Bad credit or no credit welcome",
+        "Keep driving your vehicle",
+        "Transparent pricing with no hidden fees",
+        "Arizona licensed and regulated"
+      ],
+
+      "process": [
+        {
+          "step": 1,
+          "title": "Complete Online Application",
+          "description": "Fill out our secure online form in just 5 minutes. Provide basic details about yourself and your vehicle."
+        },
+        {
+          "step": 2,
+          "title": "Receive Pre-Approval",
+          "description": "Get a quick pre-approval decision and loan estimate. A representative will call to discuss your options."
+        },
+        {
+          "step": 3,
+          "title": "Schedule Mobile Inspection",
+          "description": "Choose a convenient time and location. Our team comes to you for a quick vehicle inspection and document verification."
+        },
+        {
+          "step": 4,
+          "title": "Get Your Cash",
+          "description": "Sign your loan agreement electronically and receive funds via direct deposit - often the same day."
+        }
+      ],
+
+      "requirements": [
+        "Valid Arizona driver's license or state ID",
+        "Clear vehicle title in your name (no liens)",
+        "Vehicle for inspection at a location of your choice",
+        "Proof of income (pay stubs, bank statements, SSI, etc.)",
+        "Active checking account for direct deposit",
+        "Proof of Arizona residency",
+        "Valid Arizona vehicle registration"
+      ],
+
+      "pricingInfo": "Arizona title loan rates and terms are regulated by the Arizona Department of Financial Institutions. We provide full disclosure of all fees, interest rates, and APR before you sign. No prepayment penalties.",
+
+      "serviceArea": "Phoenix and all of Maricopa County including Scottsdale, Mesa, Tempe, Chandler, Glendale, Gilbert, and Peoria",
+      "availability": "Online applications 24/7. Mobile inspections available Monday-Saturday 8AM-8PM.",
+
+      "qualifications": [
+        "Licensed by Arizona Department of Financial Institutions",
+        "Registered under Arizona Title Loan Act",
+        "BBB Accredited Business"
+      ],
+      "yearsExperience": "15+ years",
+      "guarantees": [
+        "No hidden fees guarantee",
+        "Price match guarantee",
+        "100% satisfaction commitment"
+      ],
+      "emergencyAvailable": true,
+
+      "images": {
+        "heroImage": {
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+          "alt": "Applying for online title loan on laptop in Phoenix",
+          "caption": "Apply for Title Loans Online in Phoenix"
+        },
+        "gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8",
+            "alt": "Car eligible for title loan in Arizona",
+            "caption": "Most vehicles qualify for our program"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+            "alt": "Mobile title loan inspection",
+            "caption": "We come to you for inspection"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+            "alt": "Direct deposit title loan funds",
+            "caption": "Same-day direct deposit available"
+          }
+        ]
+      },
+
+      "h2Headings": [
+        "How Online Title Loans Work in Phoenix",
+        "What You Need for an Online Title Loan",
+        "Benefits of Choosing Our Online Process",
+        "Phoenix Online Title Loan FAQs",
+        "Start Your Online Application Now"
+      ],
+
+      "faq": [
+        {
+          "question": "Do I really not have to visit a store?",
+          "answer": "Correct! Our entire process is designed to be completed remotely. You apply online, and we come to you for the vehicle inspection. Funds are deposited directly into your bank account."
+        },
+        {
+          "question": "How does the vehicle inspection work?",
+          "answer": "One of our representatives will meet you at a convenient location - your home, workplace, or anywhere in the Phoenix area. The inspection takes about 15-20 minutes and involves verifying the VIN, mileage, and overall condition."
+        },
+        {
+          "question": "How fast can I get my money with an online title loan?",
+          "answer": "Most customers receive their funds the same day they complete the process. Once your vehicle inspection is done and documents are signed, funds can be deposited within hours."
+        },
+        {
+          "question": "What's the maximum I can borrow online in Phoenix?",
+          "answer": "Online title loans in Phoenix range from $100 to $10,000 depending on your vehicle's value. The amount is based on your car's equity and your ability to repay."
+        },
+        {
+          "question": "Is my personal information secure online?",
+          "answer": "Absolutely. We use bank-level 256-bit SSL encryption to protect all data submitted through our website. Your information is never sold or shared with unauthorized parties."
+        },
+        {
+          "question": "What if I'm approved but change my mind?",
+          "answer": "You have no obligation to proceed after pre-approval. Additionally, Arizona law provides a 3-day right of rescission for title loans."
+        }
+      ],
+
+      "keywords": [
+        "online title loans",
+        "title loans online",
+        "apply for title loan online",
+        "no store visit title loan",
+        "remote title loan",
+        "same day title loan online"
+      ],
+      "localKeywords": [
+        "online title loans Phoenix",
+        "Phoenix title loans online",
+        "title loans Phoenix AZ",
+        "online car title loan Phoenix",
+        "title loan Phoenix no store visit",
+        "Maricopa County title loans"
+      ],
+
+      "ctaPhone": "(602) 555-LOAN",
+      "ctaText": "Start Online Application",
+      "ctaUrl": "/apply",
+      "ctaSecondary": "Call for Instant Pre-Approval",
+
+      "stateCompliance": {
+        "regulatoryBody": "Arizona Department of Financial Institutions",
+        "regulatoryUrl": "https://difi.az.gov",
+        "licenseType": "Title Loan License",
+        "maxAPR": "Regulated per Arizona Title Loan Act",
+        "disclosures": [
+          "Title loans are expensive forms of credit. They should be used only for short-term financial needs.",
+          "Failure to repay may result in loss of your vehicle.",
+          "Arizona residents have a 3-day right of rescission."
+        ]
+      },
+
+      "localProof": {
+        "address": "Mobile Service - We Come to You",
+        "phone": "(602) 555-5626",
+        "localAreaCode": "602",
+        "nearbyLandmarks": ["Serving all of Maricopa County"],
+        "googleMapsUrl": "https://maps.google.com/?q=Phoenix+AZ",
+        "hours": {
+          "monday": "8:00 AM - 8:00 PM",
+          "tuesday": "8:00 AM - 8:00 PM",
+          "wednesday": "8:00 AM - 8:00 PM",
+          "thursday": "8:00 AM - 8:00 PM",
+          "friday": "8:00 AM - 8:00 PM",
+          "saturday": "9:00 AM - 6:00 PM",
+          "sunday": "Closed"
+        }
+      },
+
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "name": "Direct Title Loans - Phoenix Online",
+        "description": "Online title loans in Phoenix, AZ. Apply from home, we come to you. Get up to $10,000 with same-day direct deposit.",
+        "url": "https://www.directtitleloans.com/locations/arizona/phoenix/",
+        "telephone": "(602) 555-5626",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Phoenix",
+          "addressRegion": "AZ",
+          "addressCountry": "US"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Phoenix",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Arizona"
+          }
+        },
+        "priceRange": "$100 - $10,000",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": ["Direct Deposit", "Check"]
+      }
+    }
+  ],
+
+  "schemaTemplate": {
+    "id": "string (service-slug-location-slug-state)",
+    "service": "string (service name)",
+    "serviceSlug": "string (URL-friendly service name)",
+    "location": "string (city name)",
+    "state": "string (full state name)",
+    "stateAbbr": "string (2-letter state abbreviation)",
+    "locationSlug": "string (URL-friendly city name)",
+    "serviceNiche": "string (Title Loans)",
+    "businessName": "string (company name)",
+    "pageTitle": "string (50-60 chars, SEO optimized)",
+    "metaDescription": "string (150-160 chars, compelling CTA)",
+    "heroHeadline": "string (main H1 headline)",
+    "heroSubheadline": "string (supporting headline with benefits)",
+    "description": "string (300-500 words, comprehensive service description)",
+    "shortDescription": "string (50-100 words, brief summary)",
+    "benefits": ["array of 6-8 key customer benefits"],
+    "process": [
+      {
+        "step": "number (1-4)",
+        "title": "string (step title)",
+        "description": "string (step description)"
+      }
+    ],
+    "requirements": ["array of 5-7 loan requirements"],
+    "pricingInfo": "string (pricing guidance, not exact prices)",
+    "serviceArea": "string (geographic coverage)",
+    "availability": "string (hours and availability)",
+    "qualifications": ["array of licenses and certifications"],
+    "yearsExperience": "string (e.g., '15+ years')",
+    "guarantees": ["array of service guarantees"],
+    "emergencyAvailable": "boolean",
+    "images": {
+      "heroImage": {
+        "url": "string (Unsplash or stock image URL)",
+        "alt": "string (descriptive alt text)",
+        "caption": "string (image caption)"
+      },
+      "gallery": [
+        {
+          "url": "string",
+          "alt": "string",
+          "caption": "string"
+        }
+      ]
+    },
+    "h2Headings": ["array of 4-5 H2 section headings"],
+    "faq": [
+      {
+        "question": "string (FAQ question)",
+        "answer": "string (detailed answer)"
+      }
+    ],
+    "keywords": ["array of 6-8 primary keywords"],
+    "localKeywords": ["array of 6-8 local SEO keywords"],
+    "ctaPhone": "string (local area code phone)",
+    "ctaText": "string (primary CTA button text)",
+    "ctaUrl": "string (/apply for YMYL lending)",
+    "ctaSecondary": "string (secondary CTA text)",
+    "stateCompliance": {
+      "regulatoryBody": "string (state regulator name)",
+      "regulatoryUrl": "string (regulator website)",
+      "licenseType": "string (license type)",
+      "maxAPR": "string (APR cap if any)",
+      "disclosures": ["array of required state disclosures"]
+    },
+    "localProof": {
+      "address": "string (full street address)",
+      "phone": "string (local phone with area code)",
+      "localAreaCode": "string (3-digit area code)",
+      "nearbyLandmarks": ["array of nearby landmarks"],
+      "googleMapsUrl": "string (Google Maps link)",
+      "hours": {
+        "monday": "string",
+        "tuesday": "string",
+        "wednesday": "string",
+        "thursday": "string",
+        "friday": "string",
+        "saturday": "string",
+        "sunday": "string"
+      }
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "FinancialService",
+      "name": "string",
+      "description": "string",
+      "url": "string",
+      "telephone": "string",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "string",
+        "addressLocality": "string",
+        "addressRegion": "string",
+        "postalCode": "string",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "string",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "string"
+        }
+      },
+      "priceRange": "string",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": ["array"]
+    }
+  },
+
+  "pillarPageTemplate": {
+    "services": [
+      {
+        "slug": "car-title-loans",
+        "name": "Car Title Loans",
+        "pillarUrl": "/services/car-title-loans",
+        "hero": {
+          "h1": "Car Title Loans - Fast Cash Using Your Vehicle",
+          "subheadline": "Get Up to $15,000 | Keep Driving Your Car | All Credit Welcome",
+          "ctaText": "Apply Now",
+          "ctaUrl": "/apply"
+        },
+        "content": {
+          "whatIs": {
+            "heading": "What Is a Car Title Loan?",
+            "content": "A car title loan is a type of secured loan where you use your vehicle's title as collateral to borrow money. Unlike traditional bank loans that rely heavily on credit scores, title loans focus on the equity in your vehicle. You can typically borrow 25-50% of your car's value and receive funds quickly - often the same day you apply. The key advantage is that you keep driving your car while you repay the loan. Once paid off, your title is returned to you.",
+            "wordCount": 300
+          },
+          "howItWorks": {
+            "heading": "How Car Title Loans Work",
+            "steps": [
+              {
+                "step": 1,
+                "title": "Apply Online or In-Store",
+                "description": "Complete our simple application with basic information about yourself and your vehicle."
+              },
+              {
+                "step": 2,
+                "title": "Get Pre-Approved",
+                "description": "Receive a quick decision based on your vehicle's value and your ability to repay."
+              },
+              {
+                "step": 3,
+                "title": "Vehicle Verification",
+                "description": "A quick inspection confirms your vehicle's condition and VIN information."
+              },
+              {
+                "step": 4,
+                "title": "Receive Your Cash",
+                "description": "Sign your agreement and get funded - often in as little as 30 minutes."
+              }
+            ]
+          },
+          "benefits": {
+            "heading": "Benefits of Car Title Loans",
+            "items": [
+              "Fast funding - often same day",
+              "Bad credit, no credit, or bankruptcy OK",
+              "Keep driving your vehicle",
+              "Loan amounts from $100 to $15,000+",
+              "Simple application process",
+              "No prepayment penalties",
+              "Competitive rates"
+            ]
+          },
+          "requirements": {
+            "heading": "Title Loan Requirements",
+            "items": [
+              "Clear vehicle title in your name",
+              "Valid government-issued ID",
+              "Proof of income",
+              "Vehicle for inspection",
+              "Proof of insurance",
+              "Proof of residence"
+            ]
+          }
+        },
+        "faq": [
+          {
+            "question": "How much can I borrow with a car title loan?",
+            "answer": "Loan amounts typically range from $100 to $15,000 or more, depending on your vehicle's value. Most lenders offer 25-50% of your car's market value."
+          },
+          {
+            "question": "Will I be able to drive my car during the loan?",
+            "answer": "Yes, you keep possession of and continue driving your vehicle throughout the loan term. The lender only holds your title as collateral."
+          },
+          {
+            "question": "How fast can I get money from a title loan?",
+            "answer": "Many title loan providers offer same-day funding. Once approved, you can receive cash in as little as 30 minutes."
+          },
+          {
+            "question": "Do title loans check credit?",
+            "answer": "While some lenders perform a credit check, your credit score is not the primary factor. The focus is on your vehicle's value and your ability to repay."
+          },
+          {
+            "question": "What happens if I can't repay my title loan?",
+            "answer": "If you're unable to make payments, the lender may repossess your vehicle. However, most lenders prefer to work with you on modified payment arrangements before taking that step."
+          }
+        ],
+        "relatedServices": ["online-title-loans", "same-day-title-loans", "bad-credit-title-loans"]
+      },
+      {
+        "slug": "online-title-loans",
+        "name": "Online Title Loans",
+        "pillarUrl": "/services/online-title-loans",
+        "hero": {
+          "h1": "Online Title Loans - Apply From Home",
+          "subheadline": "No Store Visit Required | We Come to You | Same Day Direct Deposit",
+          "ctaText": "Start Online Application",
+          "ctaUrl": "/apply"
+        },
+        "content": {
+          "whatIs": {
+            "heading": "What Are Online Title Loans?",
+            "content": "Online title loans offer the same fast cash solution as traditional title loans, but with the convenience of applying entirely from home. The process is completed remotely through our secure website - no store visit required. After applying online and receiving pre-approval, we send a representative to your preferred location for a quick vehicle inspection. Funds are then deposited directly into your bank account, often the same day.",
+            "wordCount": 300
+          },
+          "howItWorks": {
+            "heading": "How Online Title Loans Work",
+            "steps": [
+              {
+                "step": 1,
+                "title": "Complete Online Form",
+                "description": "Fill out our secure application in just 5-10 minutes from any device."
+              },
+              {
+                "step": 2,
+                "title": "Receive Pre-Approval",
+                "description": "Get an instant decision and loan estimate with no obligation."
+              },
+              {
+                "step": 3,
+                "title": "Schedule Mobile Inspection",
+                "description": "We come to your home, work, or anywhere convenient for a quick vehicle check."
+              },
+              {
+                "step": 4,
+                "title": "Get Direct Deposit",
+                "description": "Sign electronically and receive funds directly into your bank account."
+              }
+            ]
+          }
+        },
+        "relatedServices": ["car-title-loans", "same-day-title-loans"]
+      },
+      {
+        "slug": "title-loan-refinancing",
+        "name": "Title Loan Refinancing",
+        "pillarUrl": "/services/title-loan-refinancing",
+        "hero": {
+          "h1": "Title Loan Refinancing - Get Better Terms Today",
+          "subheadline": "Lower Your Rate | Reduce Payments | Get Additional Cash",
+          "ctaText": "Check Refinance Options",
+          "ctaUrl": "/apply"
+        },
+        "content": {
+          "whatIs": {
+            "heading": "What Is Title Loan Refinancing?",
+            "content": "Title loan refinancing allows you to replace your existing title loan with a new one that offers better terms. This could mean a lower interest rate, reduced monthly payments, extended repayment term, or access to additional cash. Refinancing is especially beneficial if your financial situation has improved, your vehicle has retained value, or if you simply need more time to repay. We pay off your current lender directly, and you start fresh with your new loan terms.",
+            "wordCount": 300
+          }
+        },
+        "relatedServices": ["car-title-loans", "title-loan-buyout"]
+      }
+    ]
+  },
+
+  "industryTerminology": {
+    "titleLoan": "A secured loan using a vehicle title as collateral",
+    "lienFreeTitles": "A vehicle title with no outstanding debts or claims against it",
+    "vehicleEquity": "The difference between your car's value and any amount owed on it",
+    "collateral": "Property pledged as security for a loan",
+    "APR": "Annual Percentage Rate - the yearly cost of borrowing including fees",
+    "titlePawn": "Similar to title loan, commonly used in Georgia; requires surrendering title",
+    "CAB": "Credit Access Business - Texas licensing term for title loan arrangers",
+    "rollover": "Extending a loan by paying only fees and interest, deferring principal",
+    "repossession": "Legal seizure of a vehicle due to loan default",
+    "lien": "A legal claim on property as security for a debt"
+  },
+
+  "commonUsesCases": [
+    "Emergency medical expenses",
+    "Unexpected car repairs",
+    "Utility bills and rent",
+    "Home repairs",
+    "Debt consolidation",
+    "Business expenses",
+    "Funeral costs",
+    "Legal fees",
+    "Moving expenses",
+    "Education costs"
+  ],
+
+  "competitiveAdvantages": [
+    "Same-day funding available",
+    "All credit types welcome",
+    "Keep driving your vehicle",
+    "No prepayment penalties",
+    "Transparent fee structure",
+    "Online and in-store options",
+    "Mobile vehicle inspections",
+    "Experienced local team",
+    "Competitive rates",
+    "Licensed and regulated"
+  ]
+}

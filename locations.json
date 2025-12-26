@@ -1,0 +1,227 @@
+{
+  "mode": "state",
+  "serviceArea": {
+    "name": "California and Florida",
+    "type": "state",
+    "states": ["CA", "FL"]
+  },
+  "totalLocations": 4,
+  "generatedAt": "2025-12-26T12:00:00Z",
+  "locations": [
+    {
+      "id": "los-angeles-ca",
+      "name": "Los Angeles",
+      "slug": "los-angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "type": "city",
+      "population": 11885700,
+      "countyName": "Los Angeles County",
+      "localAreaCode": "213",
+      "coordinates": {
+        "latitude": 34.1141,
+        "longitude": -118.4068
+      },
+      "localFacts": {
+        "landmarks": [
+          "Griffith Observatory",
+          "Hollywood Sign",
+          "Santa Monica Pier",
+          "Getty Center",
+          "Crypto.com Arena",
+          "Los Angeles City Hall",
+          "Venice Beach",
+          "Olvera Street",
+          "Echo Park"
+        ],
+        "highways": [
+          "I-405 (San Diego Freeway)",
+          "I-10 (Santa Monica Freeway)",
+          "US-101 (Hollywood Freeway)",
+          "I-710 (Long Beach Freeway)",
+          "I-5 (Golden State Freeway)"
+        ],
+        "majorExits": [
+          "I-405 Exit 53 (Sunset Blvd - Hollywood)",
+          "I-10 Exit 8 (Downtown LA)",
+          "I-5 Exit 74 (Downtown LA)"
+        ],
+        "neighboringTowns": [
+          "Pasadena",
+          "Long Beach",
+          "Glendale",
+          "Burbank",
+          "Santa Monica",
+          "West Hollywood",
+          "Beverly Hills",
+          "Inglewood"
+        ]
+      },
+      "neuralMesh": {
+        "ringPosition": 0,
+        "neighbors": [
+          { "id": "san-diego-ca", "name": "San Diego", "slug": "san-diego", "distanceMiles": 120 }
+        ]
+      }
+    },
+    {
+      "id": "san-diego-ca",
+      "name": "San Diego",
+      "slug": "san-diego",
+      "state": "California",
+      "stateCode": "CA",
+      "type": "city",
+      "population": 3057780,
+      "countyName": "San Diego County",
+      "localAreaCode": "619",
+      "coordinates": {
+        "latitude": 32.8313,
+        "longitude": -117.1222
+      },
+      "localFacts": {
+        "landmarks": [
+          "San Diego Zoo",
+          "Balboa Park",
+          "Torrey Pines State Reserve",
+          "USS Midway Museum",
+          "Sunset Cliffs Natural Park",
+          "SeaWorld San Diego"
+        ],
+        "highways": [
+          "I-5 (Santa Fe Freeway)",
+          "I-8 (Kumeyaay Highway)",
+          "I-805 (South Bay Freeway)",
+          "CA-163 (Cabrillo Freeway)",
+          "I-15 (Escondido Freeway)"
+        ],
+        "majorExits": [
+          "I-5 Exit 17 (Downtown San Diego)",
+          "I-5 Exit 27 (Balboa Park)",
+          "I-8 Exit 9 (Mission Valley)"
+        ],
+        "neighboringTowns": [
+          "La Jolla",
+          "Coronado",
+          "National City",
+          "Chula Vista",
+          "El Cajon",
+          "Santee",
+          "La Mesa",
+          "Escondido"
+        ]
+      },
+      "neuralMesh": {
+        "ringPosition": 1,
+        "neighbors": [
+          { "id": "los-angeles-ca", "name": "Los Angeles", "slug": "los-angeles", "distanceMiles": 120 }
+        ]
+      }
+    },
+    {
+      "id": "miami-fl",
+      "name": "Miami",
+      "slug": "miami",
+      "state": "Florida",
+      "stateCode": "FL",
+      "type": "city",
+      "population": 6113980,
+      "countyName": "Miami-Dade County",
+      "localAreaCode": "305",
+      "coordinates": {
+        "latitude": 25.7840,
+        "longitude": -80.2101
+      },
+      "localFacts": {
+        "landmarks": [
+          "Art Deco Historic District",
+          "Wynwood Walls",
+          "Vizcaya Museum & Gardens",
+          "Perez Art Museum Miami",
+          "South Pointe Park",
+          "Bayside Marketplace"
+        ],
+        "highways": [
+          "I-95 (Atlantic Coast Freeway)",
+          "Florida Turnpike",
+          "US-1 (Biscayne Boulevard)",
+          "I-395 (Dolphin Expressway)",
+          "SR-836 (Dolphin Expressway)"
+        ],
+        "majorExits": [
+          "I-95 Exit 12 (Downtown Miami)",
+          "I-95 Exit 15 (Wynwood)",
+          "I-395 Exit 2A (Wynwood Walls)"
+        ],
+        "neighboringTowns": [
+          "Miami Beach",
+          "Coral Gables",
+          "Hialeah",
+          "Doral",
+          "Aventura",
+          "Homestead",
+          "Miami Springs",
+          "North Miami"
+        ]
+      },
+      "neuralMesh": {
+        "ringPosition": 0,
+        "neighbors": [
+          { "id": "tampa-fl", "name": "Tampa", "slug": "tampa", "distanceMiles": 280 }
+        ]
+      }
+    },
+    {
+      "id": "tampa-fl",
+      "name": "Tampa",
+      "slug": "tampa",
+      "state": "Florida",
+      "stateCode": "FL",
+      "type": "city",
+      "population": 2906040,
+      "countyName": "Hillsborough County",
+      "localAreaCode": "813",
+      "coordinates": {
+        "latitude": 27.9945,
+        "longitude": -82.4447
+      },
+      "localFacts": {
+        "landmarks": [
+          "Busch Gardens Tampa Bay",
+          "Florida Aquarium",
+          "Ybor City Historic District",
+          "Hyde Park Village",
+          "Tampa Riverwalk",
+          "Raymond James Stadium"
+        ],
+        "highways": [
+          "I-275 (Lee Roy Selmon Expressway)",
+          "I-4 (Dwight D. Eisenhower Freeway)",
+          "I-75 (Sunshine State Freeway)",
+          "Florida Turnpike",
+          "US-41 (Tampa Bay Bypass)"
+        ],
+        "majorExits": [
+          "I-275 Exit 41 (Downtown Tampa)",
+          "I-75 Exit 254 (Busch Gardens)",
+          "I-4 Exit 2 (Westshore)"
+        ],
+        "neighboringTowns": [
+          "St. Petersburg",
+          "Clearwater",
+          "Brandon",
+          "Temple Terrace",
+          "Plant City",
+          "Lakeland",
+          "Pinellas Park",
+          "Largo"
+        ]
+      },
+      "neuralMesh": {
+        "ringPosition": 1,
+        "neighbors": [
+          { "id": "miami-fl", "name": "Miami", "slug": "miami", "distanceMiles": 280 }
+        ]
+      }
+    }
+  ]
+}
